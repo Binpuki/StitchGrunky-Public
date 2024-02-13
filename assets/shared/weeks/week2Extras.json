@@ -1,0 +1,31 @@
+{
+	"storyName": "Extras",
+	"difficulties": "Normal",
+	"hideFreeplay": false,
+	"weekBackground": "stitch",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"songs": [
+		[
+			"Trans Rights",
+			"stitch-hype",
+			[
+				173,
+				111,
+				255
+			]
+		]
+	],
+	"hideStoryMode": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"weekName": "Extras"
+}

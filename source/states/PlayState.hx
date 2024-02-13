@@ -790,7 +790,7 @@ class PlayState extends MusicBeatState
 		for (i in 0...directories.length) {
 			var directory:String = directories[i];
 			CoolUtil.recursiveSearch(directory, function(filePath:String){
-				if (filePath.substr(filePath.lastIndexOf("/") + 1) == '$name.lua' && !name) 
+				if (filePath.substr(filePath.lastIndexOf("/") + 1) == '$name.lua' && !gotCharacter) 
 				{
 					gotCharacter = true;
 					luaFile = filePath.substr(filePath.indexOf("characters/"));
@@ -829,7 +829,7 @@ class PlayState extends MusicBeatState
 		for (i in 0...directories.length) {
 			var directory:String = directories[i];
 			CoolUtil.recursiveSearch(directory, function(filePath:String){
-				if (filePath.substr(filePath.lastIndexOf("/") + 1) == '$name.hx' && !name) 
+				if (filePath.substr(filePath.lastIndexOf("/") + 1) == '$name.hx' && !gotCharacter) 
 				{
 					gotCharacter = true;
 					scriptFile = filePath.substr(filePath.indexOf("characters/"));
