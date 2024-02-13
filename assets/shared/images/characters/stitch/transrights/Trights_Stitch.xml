@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Trights_Stitch.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="idle0000" x="1089" y="465" width="277" height="460" frameX="-241" frameY="-65" frameWidth="559" frameHeight="559"/>
+	<SubTexture name="idle0001" x="1402" y="934" width="279" height="460" frameX="-242" frameY="-64" frameWidth="559" frameHeight="559"/>
+	<SubTexture name="idle0002" x="879" y="928" width="276" height="465" frameX="-244" frameY="-59" frameWidth="559" frameHeight="559"/>
+	<SubTexture name="left0000" x="1402" y="0" width="288" height="468" frameX="-211" frameY="-56" frameWidth="559" frameHeight="559"/>
+	<SubTexture name="left0001" x="303" y="928" width="288" height="466" frameX="-215" frameY="-58" frameWidth="559" frameHeight="559"/>
+	<SubTexture name="left0002" x="1402" y="468" width="288" height="466" frameX="-215" frameY="-58" frameWidth="559" frameHeight="559"/>
+	<SubTexture name="left_miss0000" x="591" y="928" width="288" height="466" frameX="-215" frameY="-58" frameWidth="559" frameHeight="559"/>
+	<SubTexture name="down0000" x="1364" y="1394" width="276" height="442" frameX="-244" frameY="-84" frameWidth="559" frameHeight="559"/>
+	<SubTexture name="right0000" x="1961" y="930" width="266" height="464" frameX="-267" frameY="-59" frameWidth="559" frameHeight="559"/>
+	<SubTexture name="right0001" x="1961" y="0" width="267" height="465" frameX="-266" frameY="-58" frameWidth="559" frameHeight="559"/>
+	<SubTexture name="right_miss0000" x="1961" y="465" width="267" height="465" frameX="-266" frameY="-58" frameWidth="559" frameHeight="559"/>
+	<SubTexture name="up0000" x="1690" y="0" width="271" height="481" frameX="-248" frameY="-43" frameWidth="559" frameHeight="559"/>
+	<SubTexture name="up0001" x="0" y="1394" width="272" height="478" frameX="-247" frameY="-46" frameWidth="559" frameHeight="559"/>
+	<SubTexture name="up0002" x="1690" y="481" width="271" height="476" frameX="-248" frameY="-48" frameWidth="559" frameHeight="559"/>
+	<SubTexture name="up_miss0000" x="272" y="1394" width="271" height="476" frameX="-248" frameY="-48" frameWidth="559" frameHeight="559"/>
+	<SubTexture name="death0000" x="1089" y="0" width="313" height="465" frameX="-245" frameY="-59" frameWidth="559" frameHeight="559"/>
+	<SubTexture name="death0001" x="0" y="928" width="303" height="466" frameX="-245" frameY="-58" frameWidth="559" frameHeight="559"/>
+	<SubTexture name="death0002" x="0" y="0" width="372" height="468" frameX="-184" frameY="-56" frameWidth="559" frameHeight="559"/>
+	<SubTexture name="death0003" x="0" y="468" width="327" height="460" frameX="-134" frameY="-65" frameWidth="559" frameHeight="559"/>
+	<SubTexture name="death0004" x="732" y="0" width="357" height="464" frameX="-108" frameY="-61" frameWidth="559" frameHeight="559"/>
+	<SubTexture name="death0005" x="372" y="0" width="360" height="464" frameX="-105" frameY="-61" frameWidth="559" frameHeight="559"/>
+	<SubTexture name="death0006" x="818" y="1394" width="270" height="464" frameX="-195" frameY="-61" frameWidth="559" frameHeight="559"/>
+	<SubTexture name="death0007" x="818" y="1394" width="270" height="464" frameX="-195" frameY="-61" frameWidth="559" frameHeight="559"/>
+	<SubTexture name="death0008" x="1274" y="1872" width="371" height="215" frameX="-74" frameY="-337" frameWidth="559" frameHeight="559"/>
+	<SubTexture name="death0009" x="0" y="1872" width="430" height="215" frameX="-15" frameY="-337" frameWidth="559" frameHeight="559"/>
+	<SubTexture name="death0010" x="854" y="1872" width="420" height="215" frameX="-25" frameY="-337" frameWidth="559" frameHeight="559"/>
+	<SubTexture name="death0011" x="430" y="1872" width="424" height="215" frameX="-21" frameY="-337" frameWidth="559" frameHeight="559"/>
+	<SubTexture name="idle0003" x="543" y="1394" width="275" height="465" frameX="-245" frameY="-59" frameWidth="559" frameHeight="559"/>
+	<SubTexture name="down0001" x="603" y="468" width="276" height="455" frameX="-244" frameY="-71" frameWidth="559" frameHeight="559"/>
+	<SubTexture name="down0002" x="327" y="468" width="276" height="455" frameX="-244" frameY="-71" frameWidth="559" frameHeight="559"/>
+	<SubTexture name="down_miss0000" x="1088" y="1394" width="276" height="445" frameX="-244" frameY="-81" frameWidth="559" frameHeight="559"/>
+	<SubTexture name="right0002" x="1961" y="1394" width="265" height="465" frameX="-280" frameY="-58" frameWidth="559" frameHeight="559"/>
+</TextureAtlas>

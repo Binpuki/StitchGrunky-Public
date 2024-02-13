@@ -782,34 +782,37 @@ class PlayState extends MusicBeatState
 		var doPush:Bool = false;
 		var luaFile:String = 'characters/' + name + '.lua';
 		#if MODS_ALLOWED
-		var replacePath:String = Paths.modFolders(luaFile);
-		if(FileSystem.exists(replacePath))
-		{
-			luaFile = replacePath;
-			doPush = true;
+		var gotCharacter:Bool = false;
+		var directories:Array<String> = [Paths.getSharedPath('characters/'), Paths.mods('characters/'), Paths.mods(Mods.currentModDirectory + '/characters/')];
+		for(mod in Mods.getGlobalMods())
+			directories.push(Paths.mods(mod + '/characters/'));
+		
+		for (i in 0...directories.length) {
+			var directory:String = directories[i];
+			CoolUtil.recursiveSearch(directory, function(filePath:String){
+				if (filePath.substr(filePath.lastIndexOf("/") + 1) == '$name.lua' && !name) 
+				{
+					gotCharacter = true;
+					luaFile = filePath.substr(filePath.indexOf("characters/"));
+				}
+			});
 		}
-		else
-		{
-			luaFile = Paths.getSharedPath(luaFile);
-			if(FileSystem.exists(luaFile))
-				doPush = true;
-		}
-		#else
-		luaFile = Paths.getSharedPath(luaFile);
-		if(Assets.exists(luaFile)) doPush = true;
 		#end
+
+		var path:String = Paths.getPath(luaFile, TEXT, null, true);
+		doPush = #if MODS_ALLOWED FileSystem.exists(path) #else Assets.exists(path) #end;
 
 		if(doPush)
 		{
 			for (script in luaArray)
 			{
-				if(script.scriptName == luaFile)
+				if(script.scriptName == path)
 				{
 					doPush = false;
 					break;
 				}
 			}
-			if(doPush) new FunkinLua(luaFile);
+			if(doPush) new FunkinLua(path);
 		}
 		#end
 
@@ -818,26 +821,32 @@ class PlayState extends MusicBeatState
 		var doPush:Bool = false;
 		var scriptFile:String = 'characters/' + name + '.hx';
 		#if MODS_ALLOWED
-		var replacePath:String = Paths.modFolders(scriptFile);
-		if(FileSystem.exists(replacePath))
-		{
-			scriptFile = replacePath;
-			doPush = true;
+		var gotCharacter:Bool = false;
+		var directories:Array<String> = [Paths.getSharedPath('characters/'), Paths.mods('characters/'), Paths.mods(Mods.currentModDirectory + '/characters/')];
+		for(mod in Mods.getGlobalMods())
+			directories.push(Paths.mods(mod + '/characters/'));
+		
+		for (i in 0...directories.length) {
+			var directory:String = directories[i];
+			CoolUtil.recursiveSearch(directory, function(filePath:String){
+				if (filePath.substr(filePath.lastIndexOf("/") + 1) == '$name.hx' && !name) 
+				{
+					gotCharacter = true;
+					scriptFile = filePath.substr(filePath.indexOf("characters/"));
+				}
+			});
 		}
-		else
 		#end
-		{
-			scriptFile = Paths.getSharedPath(scriptFile);
-			if(FileSystem.exists(scriptFile))
-				doPush = true;
-		}
+
+		var path:String = Paths.getPath(scriptFile, TEXT, null, true);
+		doPush = #if MODS_ALLOWED FileSystem.exists(path) #else Assets.exists(path) #end;
 
 		if(doPush)
 		{
-			if(SScript.global.exists(scriptFile))
+			if(SScript.global.exists(path))
 				doPush = false;
 
-			if(doPush) initHScript(scriptFile);
+			if(doPush) initHScript(path);
 		}
 		#end
 	}
