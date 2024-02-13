@@ -30,7 +30,7 @@ class ComboDisplay extends FlxSpriteGroup
         currentJudge.alpha = 0;
         add(currentJudge);
 
-        msTimeTxt = new FlxText(-100, ClientPrefs.data.downScroll ? 40 : -40 - 24, 200, "", 24);
+        msTimeTxt = new FlxText(-100, ClientPrefs.data.downScroll ? 40 : -90, 200, "", 24);
         msTimeTxt.setFormat(Paths.font("vcr.ttf"), 24, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
         msTimeTxt.centerOrigin();
         add(msTimeTxt);
@@ -95,7 +95,7 @@ class ComboDisplay extends FlxSpriteGroup
         {
             var combo:FlxSprite = currentCombos[i];
             var generalSize:Float = ((50 * (2 / 3)) * comboDigits.length);
-            combo.setPosition(x - (generalSize / 2) + ((50 * (2 / 3)) * i), y + (!ClientPrefs.data.downScroll ? -55 : 0));
+            combo.setPosition(x - (generalSize / 2) + ((50 * (2 / 3)) * i), y + (!ClientPrefs.data.downScroll ? -50 : 0));
             combo.alpha = alpha;
             combo.scale.set(1.2 * (1 / 3), 1.2 * (1 / 3));
             currentComboTweens[i] = FlxTween.tween(combo.scale, { x: 1 / 3, y: 1 / 3 }, 0.2);

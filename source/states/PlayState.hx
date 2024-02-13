@@ -602,7 +602,7 @@ class PlayState extends MusicBeatState
 		hudGroup.cameras = [camHUD];
 
 		var comboX:Float = ClientPrefs.data.middleScroll ? FlxG.width / 2 : STRUM_X + (Note.swagWidth * 2) + 480;
-		comboDisplay = new ComboDisplay(comboX, !ClientPrefs.data.downScroll ? 225 : FlxG.height - 225);
+		comboDisplay = new ComboDisplay(comboX, !ClientPrefs.data.downScroll ? 245 : FlxG.height - 225);
 		comboGroup.add(comboDisplay);
 
 		startingSong = true;
@@ -2859,7 +2859,10 @@ class PlayState extends MusicBeatState
 		if(result != FunkinLua.Function_Stop && result != FunkinLua.Function_StopHScript && result != FunkinLua.Function_StopAll) callOnHScript('opponentNoteHitPost', [note]);
 
 		if (!note.isSustainNote)
+		{
 			invalidateNote(note);
+			spawnNoteSplash(opponentStrums.members[note.noteData].x, opponentStrums.members[note.noteData].y, note.noteData, note);
+		}
 	}
 
 	public function goodNoteHit(note:Note):Void
@@ -2927,9 +2930,8 @@ class PlayState extends MusicBeatState
 			var spr = playerStrums.members[note.noteData];
 			if(spr != null) 
 			{
-				if (!note.isSustainNote || (note.isSustainNote && note.animation.curAnim.name.endsWith("holdend")))
-					spr.playAnim('confirm', true);
-				else
+				spr.playAnim('confirm', true);
+				if (note.isSustainNote && !note.animation.curAnim.name.endsWith("holdend"))
 					spr.animation.pause();
 			}
 		}
@@ -3346,9 +3348,8 @@ class PlayState extends MusicBeatState
 
 		if(spr != null) 
 		{
-			if (!isSusNote || isSusEnd)
-				spr.playAnim('confirm', true);
-			else
+			spr.playAnim('confirm', true);
+			if (isSusNote && !isSusEnd)
 				spr.animation.pause();
 
 			spr.resetAnim = time;

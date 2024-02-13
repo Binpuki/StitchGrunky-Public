@@ -44,7 +44,7 @@ class FPSCounter extends Sprite
 			var text:TextField = textGroup[i];
 			text.autoSize = LEFT;
 			text.multiline = text.wordWrap = text.selectable = false;
-			text.defaultTextFormat = new TextFormat("Courier Std Bold", (i == 0 || i == 2) ? 18 : 12, 0xFFFFFFFF, true);
+			text.defaultTextFormat = new TextFormat("VCR OSD Mono", (i == 0 || i == 2) ? 18 : 12, 0xFFFFFFFF, true);
 			addChild(text);
 		}
 
