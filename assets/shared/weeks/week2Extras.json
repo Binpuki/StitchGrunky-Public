@@ -3,7 +3,7 @@
 	"difficulties": "Normal",
 	"hideFreeplay": false,
 	"weekBackground": "stitch",
-	"weekBefore": "tutorial",
+	"weekBefore": "Vs Stitch",
 	"freeplayColor": [
 		146,
 		113,
@@ -13,10 +13,10 @@
 	"songs": [
 		[
 			"Trans Rights",
-			"stitch-hype",
+			"goobus",
 			[
-				173,
-				111,
+				112,
+				214,
 				255
 			]
 		]

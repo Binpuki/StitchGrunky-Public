@@ -13,6 +13,6 @@
 	"weekBefore": "test",
 	"weekName": "Test",
 	"startUnlocked": true,
-	"hideStoryMode": false,
-	"hideFreeplay": false
+	"hideStoryMode": true,
+	"hideFreeplay": true
 }
