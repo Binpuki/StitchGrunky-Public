@@ -105,7 +105,7 @@ class Character extends FlxSprite
 				for (i in 0...directories.length) {
 					var directory:String = directories[i];
 					CoolUtil.recursiveSearch(directory, function(filePath:String){
-						if (filePath.endsWith('${curCharacter}.json') && !gotCharacter) 
+						if (filePath.substr(filePath.lastIndexOf("/") + 1) == '$curCharacter.json' && !gotCharacter) 
 						{
 							gotCharacter = true;
 							characterPath = filePath.substr(filePath.indexOf("characters/"));
