@@ -1,9 +1,9 @@
 import backend.ClientPrefs;
-import openfl.display.BlendMode;
 import flixel.FlxSprite;
 import flixel.addons.display.FlxRuntimeShader;
 import openfl.utils.Assets;
 import objects.BGSprite;
+import openfl.filters.ShaderFilter;
 
 /*
     if shadersEnabled == true then
