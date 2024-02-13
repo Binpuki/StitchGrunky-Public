@@ -443,18 +443,20 @@ class CharacterEditorState extends MusicBeatState
 
 		charDropDown = new FlxUIDropDownMenu(10, 30, FlxUIDropDownMenu.makeStrIdLabelArray([''], true), function(index:String)
 		{
-			var intended = characterList[Std.parseInt(index)];
-			if(intended == null || intended.length < 1) return;
+			var keysList:Array<String> = [];
+			for (charName in characterList.keys())
+				keysList.push(charName);
 
-			var characterPath:String = 'characters/$intended.json';
-			var path:String = Paths.getPath(characterPath, TEXT, null, true);
+			var path:String = characterList[keysList[Std.parseInt(index)]];
+			if(path == null || path.length < 1) return;
+			
 			#if MODS_ALLOWED
 			if (FileSystem.exists(path))
 			#else
 			if (Assets.exists(path))
 			#end
 			{
-				_char = intended;
+				_char = keysList[Std.parseInt(index)];
 				check_player.checked = character.isPlayer;
 				addCharacter();
 				reloadCharacterOptions();
@@ -1028,7 +1030,7 @@ class CharacterEditorState extends MusicBeatState
 		}
 	}
 
-	final assetFolder = 'week1';  //load from assets/week1/
+	final assetFolder = 'default';  //load from assets/week1/
 	inline function loadBG()
 	{
 		var lastLoaded = Paths.currentLevel;
@@ -1181,9 +1183,9 @@ class CharacterEditorState extends MusicBeatState
 		};
 	}
 
-	var characterList:Array<String> = [];
+	var characterList:Map<String, String> = [];
 	function reloadCharacterDropDown() {
-		characterList = Mods.mergeAllTextsNamed('data/characterList.txt', Paths.getSharedPath());
+		characterList.clear();
 		var foldersToCheck:Array<String> = Mods.directoriesWithFile(Paths.getSharedPath(), 'characters/');
 		for (folder in foldersToCheck)
 		{
@@ -1191,14 +1193,18 @@ class CharacterEditorState extends MusicBeatState
 				if(filePath.toLowerCase().endsWith('.json'))
 				{
 					var charToCheck:String = filePath.substr(filePath.lastIndexOf("/") + 1, filePath.length - filePath.lastIndexOf("/") - 6);
-					if(!characterList.contains(charToCheck))
-						characterList.push(charToCheck);
+					if(!characterList.exists(charToCheck))
+						characterList.set(charToCheck, filePath);
 				}
 			});
 		}
 
-		if(characterList.length < 1) characterList.push('');
-		charDropDown.setData(FlxUIDropDownMenu.makeStrIdLabelArray(characterList, true));
+		var charList:Array<String> = [];
+		for (charName in characterList.keys())
+			charList.push(charName);
+
+		if(charList.length < 1) charList.push('');
+		charDropDown.setData(FlxUIDropDownMenu.makeStrIdLabelArray(charList, true));
 		charDropDown.selectedLabel = _char;
 	}
 

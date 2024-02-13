@@ -3,7 +3,7 @@
 	"difficulties": "Normal",
 	"hideFreeplay": false,
 	"weekBackground": "stitch",
-	"weekBefore": "Vs Stitch",
+	"weekBefore": "week1",
 	"freeplayColor": [
 		146,
 		113,
@@ -13,7 +13,7 @@
 	"songs": [
 		[
 			"Trans Rights",
-			"goobus",
+			"roxy",
 			[
 				112,
 				214,
@@ -27,5 +27,5 @@
 		"",
 		""
 	],
-	"weekName": "Extras"
+	"weekName": "extras"
 }

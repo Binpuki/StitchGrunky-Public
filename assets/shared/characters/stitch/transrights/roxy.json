@@ -62,12 +62,12 @@
 		0,
 		200
 	],
-	"healthicon": "aradia",
+	"healthicon": "roxy",
 	"flip_x": false,
 	"healthbar_colors": [
-		51,
-		51,
-		51
+		98,
+		202,
+		255
 	],
 	"camera_position": [
 		-100,

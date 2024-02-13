@@ -1,5 +1,6 @@
 package objects;
 
+import flixel.FlxState;
 import states.editors.EditorPlayState;
 import backend.animation.PsychAnimationController;
 import backend.NoteTypesConfig;
@@ -432,6 +433,7 @@ class Note extends FlxSprite
 	override function update(elapsed:Float)
 	{
 		super.update(elapsed);
+		var songPos:Float = MusicBeatState.getState().subState != null ? cast(MusicBeatState.getState().subState, MusicBeatSubstate).visualSongPosition : MusicBeatState.getState().visualSongPosition;
 
 		if (strumGroup != null)
 		{
@@ -444,19 +446,19 @@ class Note extends FlxSprite
 
 		if (mustPress)
 		{
-			canBeHit = (strumTime > MusicBeatState.getState().visualSongPosition - (Conductor.safeZoneOffset * lateHitMult) &&
-						strumTime < MusicBeatState.getState().visualSongPosition + (Conductor.safeZoneOffset * earlyHitMult));
+			canBeHit = (strumTime > songPos - (Conductor.safeZoneOffset * lateHitMult) &&
+						strumTime < songPos + (Conductor.safeZoneOffset * earlyHitMult));
 
-			if (strumTime < MusicBeatState.getState().visualSongPosition - Conductor.safeZoneOffset && !wasGoodHit)
+			if (strumTime < songPos - Conductor.safeZoneOffset && !wasGoodHit)
 				tooLate = true;
 		}
 		else
 		{
 			canBeHit = false;
 
-			if (strumTime < MusicBeatState.getState().visualSongPosition + (Conductor.safeZoneOffset * earlyHitMult))
+			if (strumTime < songPos + (Conductor.safeZoneOffset * earlyHitMult))
 			{
-				if((isSustainNote && prevNote.wasGoodHit) || strumTime <= MusicBeatState.getState().visualSongPosition)
+				if((isSustainNote && prevNote.wasGoodHit) || strumTime <= songPos)
 					wasGoodHit = true;
 			}
 		}
@@ -482,7 +484,7 @@ class Note extends FlxSprite
 		var strumAlpha:Float = myStrum.alpha;
 		var strumDirection:Float = myStrum.direction;
 
-		distance = (0.45 * (MusicBeatState.getState().visualSongPosition - strumTime) * songSpeed * multSpeed);
+		distance = (0.45 * ((MusicBeatState.getState().subState != null ? cast(MusicBeatState.getState().subState, MusicBeatSubstate).visualSongPosition : MusicBeatState.getState().visualSongPosition) - strumTime) * songSpeed * multSpeed);
 		if (!myStrum.downScroll) distance *= -1;
 
 		var angleDir = strumDirection * Math.PI / 180;

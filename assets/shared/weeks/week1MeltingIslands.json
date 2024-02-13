@@ -1,5 +1,5 @@
 {
-	"storyName": "The Melting Islands",
+	"storyName": "Vs Stitch",
 	"difficulties": "Normal",
 	"hideFreeplay": false,
 	"weekBackground": "stitch",
@@ -13,7 +13,7 @@
 	"songs": [
 		[
 			"Sew",
-			"stitch-hype",
+			"stitch",
 			[
 				173,
 				111,
@@ -27,5 +27,5 @@
 		"",
 		""
 	],
-	"weekName": "Vs Stitch"
+	"weekName": "week1"
 }

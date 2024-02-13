@@ -27,7 +27,9 @@ function onSongStart()
 
         runTimer("NO title", 2.5, 1)
         runTimer("byebye", 5, 1)
-    end     
+    else
+        debugPrint("aw hell naw")
+    end
 end
 
 function onTimerCompleted(TIMMER)

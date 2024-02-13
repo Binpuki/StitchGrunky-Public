@@ -2,7 +2,7 @@
 	"songs": [
 		[
 			"Manual",
-			"face",
+			"stitch",
 			[
 				146,
 				113,
@@ -13,20 +13,19 @@
 	"hiddenUntilUnlocked": false,
 	"hideFreeplay": false,
 	"weekBackground": "meltingIslands",
-	"difficulties": "",
+	"difficulties": "Normal",
+	"storyName": "How 2 have gay sex and marriage",
+	"weekName": "tutorial",
 	"weekCharacters": [
 		"stitch",
 		"bf",
 		""
 	],
-	"storyName": "How 2 have gay sex and marriage",
-	"weekName": "tutorial",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
-	"hideStoryMode": true,
-	"weekBefore": "tutorial",
+	"hideStoryMode": false,
 	"startUnlocked": true
 }
