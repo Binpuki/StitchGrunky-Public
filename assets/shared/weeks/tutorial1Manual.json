@@ -1,0 +1,32 @@
+{
+	"songs": [
+		[
+			"Manual",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "meltingIslands",
+	"difficulties": "",
+	"weekCharacters": [
+		"stitch",
+		"bf",
+		""
+	],
+	"storyName": "How 2 have gay sex and marriage",
+	"weekName": "peni peis",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": true,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

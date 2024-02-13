@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="volcaniaFactories.png">
+	<!-- Created with Adobe Animate version 20.5.1.31044 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="volcaniaFactories0000" x="100" y="100" width="349" height="1003" frameX="-5" frameY="-2" frameWidth="358" frameHeight="1005"/>
+	<SubTexture name="volcaniaFactories0001" x="100" y="100" width="349" height="1003" frameX="-5" frameY="-2" frameWidth="358" frameHeight="1005"/>
+	<SubTexture name="volcaniaFactories0002" x="100" y="100" width="349" height="1003" frameX="-5" frameY="-2" frameWidth="358" frameHeight="1005"/>
+	<SubTexture name="volcaniaFactories0003" x="100" y="100" width="349" height="1003" frameX="-5" frameY="-2" frameWidth="358" frameHeight="1005"/>
+	<SubTexture name="volcaniaFactories0004" x="100" y="100" width="349" height="1003" frameX="-5" frameY="-2" frameWidth="358" frameHeight="1005"/>
+	<SubTexture name="volcaniaFactories0005" x="100" y="100" width="349" height="1003" frameX="-5" frameY="-2" frameWidth="358" frameHeight="1005"/>
+	<SubTexture name="volcaniaFactories0006" x="549" y="100" width="349" height="1003" frameX="-9" frameY="-2" frameWidth="358" frameHeight="1005"/>
+	<SubTexture name="volcaniaFactories0007" x="549" y="100" width="349" height="1003" frameX="-9" frameY="-2" frameWidth="358" frameHeight="1005"/>
+	<SubTexture name="volcaniaFactories0008" x="549" y="100" width="349" height="1003" frameX="-9" frameY="-2" frameWidth="358" frameHeight="1005"/>
+	<SubTexture name="volcaniaFactories0009" x="549" y="100" width="349" height="1003" frameX="-9" frameY="-2" frameWidth="358" frameHeight="1005"/>
+	<SubTexture name="volcaniaFactories0010" x="549" y="100" width="349" height="1003" frameX="-9" frameY="-2" frameWidth="358" frameHeight="1005"/>
+	<SubTexture name="volcaniaFactories0011" x="549" y="100" width="349" height="1003" frameX="-9" frameY="-2" frameWidth="358" frameHeight="1005"/>
+	<SubTexture name="volcaniaFactories0012" x="998" y="100" width="349" height="1005" frameX="-1" frameY="0" frameWidth="358" frameHeight="1005"/>
+	<SubTexture name="volcaniaFactories0013" x="998" y="100" width="349" height="1005" frameX="-1" frameY="0" frameWidth="358" frameHeight="1005"/>
+	<SubTexture name="volcaniaFactories0014" x="998" y="100" width="349" height="1005" frameX="-1" frameY="0" frameWidth="358" frameHeight="1005"/>
+	<SubTexture name="volcaniaFactories0015" x="998" y="100" width="349" height="1005" frameX="-1" frameY="0" frameWidth="358" frameHeight="1005"/>
+	<SubTexture name="volcaniaFactories0016" x="998" y="100" width="349" height="1005" frameX="-1" frameY="0" frameWidth="358" frameHeight="1005"/>
+	<SubTexture name="volcaniaFactories0017" x="998" y="100" width="349" height="1005" frameX="-1" frameY="0" frameWidth="358" frameHeight="1005"/>
+	<SubTexture name="volcaniaFactories0018" x="1447" y="100" width="349" height="1005" frameX="0" frameY="0" frameWidth="358" frameHeight="1005"/>
+	<SubTexture name="volcaniaFactories0019" x="1447" y="100" width="349" height="1005" frameX="0" frameY="0" frameWidth="358" frameHeight="1005"/>
+	<SubTexture name="volcaniaFactories0020" x="1447" y="100" width="349" height="1005" frameX="0" frameY="0" frameWidth="358" frameHeight="1005"/>
+	<SubTexture name="volcaniaFactories0021" x="1447" y="100" width="349" height="1005" frameX="0" frameY="0" frameWidth="358" frameHeight="1005"/>
+	<SubTexture name="volcaniaFactories0022" x="1447" y="100" width="349" height="1005" frameX="0" frameY="0" frameWidth="358" frameHeight="1005"/>
+	<SubTexture name="volcaniaFactories0023" x="1447" y="100" width="349" height="1005" frameX="0" frameY="0" frameWidth="358" frameHeight="1005"/>
+	<SubTexture name="volcaniaFactories0024" x="1896" y="100" width="349" height="1005" frameX="-4" frameY="0" frameWidth="358" frameHeight="1005"/>
+	<SubTexture name="volcaniaFactories0025" x="1896" y="100" width="349" height="1005" frameX="-4" frameY="0" frameWidth="358" frameHeight="1005"/>
+	<SubTexture name="volcaniaFactories0026" x="1896" y="100" width="349" height="1005" frameX="-4" frameY="0" frameWidth="358" frameHeight="1005"/>
+	<SubTexture name="volcaniaFactories0027" x="1896" y="100" width="349" height="1005" frameX="-4" frameY="0" frameWidth="358" frameHeight="1005"/>
+	<SubTexture name="volcaniaFactories0028" x="1896" y="100" width="349" height="1005" frameX="-4" frameY="0" frameWidth="358" frameHeight="1005"/>
+	<SubTexture name="volcaniaFactories0029" x="1896" y="100" width="349" height="1005" frameX="-4" frameY="0" frameWidth="358" frameHeight="1005"/>
+</TextureAtlas>

@@ -1,0 +1,2 @@
+Value1: if the value is 1 or 2 it flicks the lights, if the value is "off" then it turns off the lights
+Value2: the time it takes for the the lights to turn off (example: Value1 = off, Value2 = 0.5)

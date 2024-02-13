@@ -1,0 +1,13 @@
+{
+	"directory": "petalforest",
+	"defaultZoom": 0.55,
+	"isPixelStage": false,
+
+	"boyfriend": [150, -80],
+	"girlfriend": [0, 0],
+	"opponent": [-200, -25],
+	"hide_girlfriend": true,
+
+	"camera_girlfriend": [380, 300],
+	"camera_speed": 1
+}

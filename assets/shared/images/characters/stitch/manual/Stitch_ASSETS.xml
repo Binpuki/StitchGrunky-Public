@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Stitch_ASSETS.png">
+	<!-- Created with Adobe Animate version 20.5.1.31044 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="stitch down0000" x="100" y="100" width="701" height="686" frameX="0" frameY="-8" frameWidth="707" frameHeight="694"/>
+	<SubTexture name="stitch down0001" x="100" y="100" width="701" height="686" frameX="0" frameY="-8" frameWidth="707" frameHeight="694"/>
+	<SubTexture name="stitch down0002" x="901" y="100" width="689" height="694" frameX="-18" frameY="0" frameWidth="707" frameHeight="694"/>
+	<SubTexture name="stitch down0003" x="901" y="100" width="689" height="694" frameX="-18" frameY="0" frameWidth="707" frameHeight="694"/>
+	<SubTexture name="stitch down0004" x="901" y="100" width="689" height="694" frameX="-18" frameY="0" frameWidth="707" frameHeight="694"/>
+	<SubTexture name="stitch down0005" x="901" y="100" width="689" height="694" frameX="-18" frameY="0" frameWidth="707" frameHeight="694"/>
+	<SubTexture name="stitch down0006" x="901" y="100" width="689" height="694" frameX="-18" frameY="0" frameWidth="707" frameHeight="694"/>
+	<SubTexture name="stitch down0007" x="901" y="100" width="689" height="694" frameX="-18" frameY="0" frameWidth="707" frameHeight="694"/>
+	<SubTexture name="stitch down0008" x="901" y="100" width="689" height="694" frameX="-18" frameY="0" frameWidth="707" frameHeight="694"/>
+	<SubTexture name="stitch down0009" x="901" y="100" width="689" height="694" frameX="-18" frameY="0" frameWidth="707" frameHeight="694"/>
+	<SubTexture name="stitch down0010" x="901" y="100" width="689" height="694" frameX="-18" frameY="0" frameWidth="707" frameHeight="694"/>
+	<SubTexture name="stitch down0011" x="901" y="100" width="689" height="694" frameX="-18" frameY="0" frameWidth="707" frameHeight="694"/>
+	<SubTexture name="stitch down0012" x="901" y="100" width="689" height="694" frameX="-18" frameY="0" frameWidth="707" frameHeight="694"/>
+	<SubTexture name="stitch down0013" x="901" y="100" width="689" height="694" frameX="-18" frameY="0" frameWidth="707" frameHeight="694"/>
+	<SubTexture name="stitch down0014" x="901" y="100" width="689" height="694" frameX="-18" frameY="0" frameWidth="707" frameHeight="694"/>
+	<SubTexture name="stitch down0015" x="901" y="100" width="689" height="694" frameX="-18" frameY="0" frameWidth="707" frameHeight="694"/>
+	<SubTexture name="stitch down0016" x="901" y="100" width="689" height="694" frameX="-18" frameY="0" frameWidth="707" frameHeight="694"/>
+	<SubTexture name="stitch down0017" x="901" y="100" width="689" height="694" frameX="-18" frameY="0" frameWidth="707" frameHeight="694"/>
+	<SubTexture name="stitch down0018" x="901" y="100" width="689" height="694" frameX="-18" frameY="0" frameWidth="707" frameHeight="694"/>
+	<SubTexture name="stitch down0019" x="901" y="100" width="689" height="694" frameX="-18" frameY="0" frameWidth="707" frameHeight="694"/>
+	<SubTexture name="stitch down0020" x="901" y="100" width="689" height="694" frameX="-18" frameY="0" frameWidth="707" frameHeight="694"/>
+	<SubTexture name="stitch down0021" x="901" y="100" width="689" height="694" frameX="-18" frameY="0" frameWidth="707" frameHeight="694"/>
+	<SubTexture name="stitch down0022" x="901" y="100" width="689" height="694" frameX="-18" frameY="0" frameWidth="707" frameHeight="694"/>
+	<SubTexture name="stitch down0023" x="901" y="100" width="689" height="694" frameX="-18" frameY="0" frameWidth="707" frameHeight="694"/>
+	<SubTexture name="stitch down0024" x="901" y="100" width="689" height="694" frameX="-18" frameY="0" frameWidth="707" frameHeight="694"/>
+	<SubTexture name="stitch down0025" x="901" y="100" width="689" height="694" frameX="-18" frameY="0" frameWidth="707" frameHeight="694"/>
+	<SubTexture name="stitch down0026" x="901" y="100" width="689" height="694" frameX="-18" frameY="0" frameWidth="707" frameHeight="694"/>
+	<SubTexture name="stitch down0027" x="901" y="100" width="689" height="694" frameX="-18" frameY="0" frameWidth="707" frameHeight="694"/>
+	<SubTexture name="stitch idle bop0000" x="1690" y="100" width="578" height="888" frameX="-5" frameY="-10" frameWidth="602" frameHeight="898"/>
+	<SubTexture name="stitch idle bop0001" x="1690" y="100" width="578" height="888" frameX="-5" frameY="-10" frameWidth="602" frameHeight="898"/>
+	<SubTexture name="stitch idle bop0002" x="2368" y="100" width="588" height="886" frameX="0" frameY="-12" frameWidth="602" frameHeight="898"/>
+	<SubTexture name="stitch idle bop0003" x="2368" y="100" width="588" height="886" frameX="0" frameY="-12" frameWidth="602" frameHeight="898"/>
+	<SubTexture name="stitch idle bop0004" x="3056" y="100" width="598" height="895" frameX="-3" frameY="-3" frameWidth="602" frameHeight="898"/>
+	<SubTexture name="stitch idle bop0005" x="3056" y="100" width="598" height="895" frameX="-3" frameY="-3" frameWidth="602" frameHeight="898"/>
+	<SubTexture name="stitch idle bop0006" x="3754" y="100" width="597" height="898" frameX="-5" frameY="0" frameWidth="602" frameHeight="898"/>
+	<SubTexture name="stitch idle bop0007" x="3754" y="100" width="597" height="898" frameX="-5" frameY="0" frameWidth="602" frameHeight="898"/>
+	<SubTexture name="stitch idle bop0008" x="4451" y="100" width="597" height="898" frameX="-5" frameY="0" frameWidth="602" frameHeight="898"/>
+	<SubTexture name="stitch idle bop0009" x="4451" y="100" width="597" height="898" frameX="-5" frameY="0" frameWidth="602" frameHeight="898"/>
+	<SubTexture name="stitch idle bop0010" x="4451" y="100" width="597" height="898" frameX="-5" frameY="0" frameWidth="602" frameHeight="898"/>
+	<SubTexture name="stitch idle bop0011" x="4451" y="100" width="597" height="898" frameX="-5" frameY="0" frameWidth="602" frameHeight="898"/>
+	<SubTexture name="stitch idle bop0012" x="4451" y="100" width="597" height="898" frameX="-5" frameY="0" frameWidth="602" frameHeight="898"/>
+	<SubTexture name="stitch idle bop0013" x="4451" y="100" width="597" height="898" frameX="-5" frameY="0" frameWidth="602" frameHeight="898"/>
+	<SubTexture name="stitch left0000" x="5148" y="100" width="725" height="854" frameX="0" frameY="-13" frameWidth="726" frameHeight="867"/>
+	<SubTexture name="stitch left0001" x="5148" y="100" width="725" height="854" frameX="0" frameY="-13" frameWidth="726" frameHeight="867"/>
+	<SubTexture name="stitch left0002" x="5973" y="100" width="716" height="867" frameX="-10" frameY="0" frameWidth="726" frameHeight="867"/>
+	<SubTexture name="stitch left0003" x="5973" y="100" width="716" height="867" frameX="-10" frameY="0" frameWidth="726" frameHeight="867"/>
+	<SubTexture name="stitch left0004" x="5973" y="100" width="716" height="867" frameX="-10" frameY="0" frameWidth="726" frameHeight="867"/>
+	<SubTexture name="stitch left0005" x="5973" y="100" width="716" height="867" frameX="-10" frameY="0" frameWidth="726" frameHeight="867"/>
+	<SubTexture name="stitch left0006" x="5973" y="100" width="716" height="867" frameX="-10" frameY="0" frameWidth="726" frameHeight="867"/>
+	<SubTexture name="stitch left0007" x="5973" y="100" width="716" height="867" frameX="-10" frameY="0" frameWidth="726" frameHeight="867"/>
+	<SubTexture name="stitch left0008" x="5973" y="100" width="716" height="867" frameX="-10" frameY="0" frameWidth="726" frameHeight="867"/>
+	<SubTexture name="stitch left0009" x="5973" y="100" width="716" height="867" frameX="-10" frameY="0" frameWidth="726" frameHeight="867"/>
+	<SubTexture name="stitch ready0000" x="6789" y="100" width="600" height="898" frameX="0" frameY="-1" frameWidth="600" frameHeight="899"/>
+	<SubTexture name="stitch ready0001" x="6789" y="100" width="600" height="898" frameX="0" frameY="-1" frameWidth="600" frameHeight="899"/>
+	<SubTexture name="stitch ready0002" x="7489" y="100" width="583" height="897" frameX="-11" frameY="-2" frameWidth="600" frameHeight="899"/>
+	<SubTexture name="stitch ready0003" x="7489" y="100" width="583" height="897" frameX="-11" frameY="-2" frameWidth="600" frameHeight="899"/>
+	<SubTexture name="stitch ready0004" x="100" y="1098" width="572" height="899" frameX="-13" frameY="0" frameWidth="600" frameHeight="899"/>
+	<SubTexture name="stitch ready0005" x="100" y="1098" width="572" height="899" frameX="-13" frameY="0" frameWidth="600" frameHeight="899"/>
+	<SubTexture name="stitch ready0006" x="772" y="1098" width="567" height="899" frameX="-13" frameY="0" frameWidth="600" frameHeight="899"/>
+	<SubTexture name="stitch ready0007" x="772" y="1098" width="567" height="899" frameX="-13" frameY="0" frameWidth="600" frameHeight="899"/>
+	<SubTexture name="stitch ready0008" x="772" y="1098" width="567" height="899" frameX="-13" frameY="0" frameWidth="600" frameHeight="899"/>
+	<SubTexture name="stitch ready0009" x="772" y="1098" width="567" height="899" frameX="-13" frameY="0" frameWidth="600" frameHeight="899"/>
+	<SubTexture name="stitch ready0010" x="772" y="1098" width="567" height="899" frameX="-13" frameY="0" frameWidth="600" frameHeight="899"/>
+	<SubTexture name="stitch ready0011" x="772" y="1098" width="567" height="899" frameX="-13" frameY="0" frameWidth="600" frameHeight="899"/>
+	<SubTexture name="stitch ready0012" x="772" y="1098" width="567" height="899" frameX="-13" frameY="0" frameWidth="600" frameHeight="899"/>
+	<SubTexture name="stitch ready0013" x="772" y="1098" width="567" height="899" frameX="-13" frameY="0" frameWidth="600" frameHeight="899"/>
+	<SubTexture name="stitch ready0014" x="772" y="1098" width="567" height="899" frameX="-13" frameY="0" frameWidth="600" frameHeight="899"/>
+	<SubTexture name="stitch ready0015" x="772" y="1098" width="567" height="899" frameX="-13" frameY="0" frameWidth="600" frameHeight="899"/>
+	<SubTexture name="stitch ready0016" x="772" y="1098" width="567" height="899" frameX="-13" frameY="0" frameWidth="600" frameHeight="899"/>
+	<SubTexture name="stitch ready0017" x="772" y="1098" width="567" height="899" frameX="-13" frameY="0" frameWidth="600" frameHeight="899"/>
+	<SubTexture name="stitch right0000" x="1439" y="1098" width="732" height="865" frameX="-1" frameY="0" frameWidth="733" frameHeight="865"/>
+	<SubTexture name="stitch right0001" x="1439" y="1098" width="732" height="865" frameX="-1" frameY="0" frameWidth="733" frameHeight="865"/>
+	<SubTexture name="stitch right0002" x="2271" y="1098" width="727" height="862" frameX="0" frameY="-3" frameWidth="733" frameHeight="865"/>
+	<SubTexture name="stitch right0003" x="2271" y="1098" width="727" height="862" frameX="0" frameY="-3" frameWidth="733" frameHeight="865"/>
+	<SubTexture name="stitch right0004" x="2271" y="1098" width="727" height="862" frameX="0" frameY="-3" frameWidth="733" frameHeight="865"/>
+	<SubTexture name="stitch right0005" x="2271" y="1098" width="727" height="862" frameX="0" frameY="-3" frameWidth="733" frameHeight="865"/>
+	<SubTexture name="stitch right0006" x="2271" y="1098" width="727" height="862" frameX="0" frameY="-3" frameWidth="733" frameHeight="865"/>
+	<SubTexture name="stitch right0007" x="2271" y="1098" width="727" height="862" frameX="0" frameY="-3" frameWidth="733" frameHeight="865"/>
+	<SubTexture name="stitch sing down0000" x="3098" y="1098" width="514" height="875" frameX="0" frameY="-4" frameWidth="514" frameHeight="879"/>
+	<SubTexture name="stitch sing down0001" x="3098" y="1098" width="514" height="875" frameX="0" frameY="-4" frameWidth="514" frameHeight="879"/>
+	<SubTexture name="stitch sing down0002" x="3712" y="1098" width="510" height="879" frameX="-3" frameY="0" frameWidth="514" frameHeight="879"/>
+	<SubTexture name="stitch sing down0003" x="3712" y="1098" width="510" height="879" frameX="-3" frameY="0" frameWidth="514" frameHeight="879"/>
+	<SubTexture name="stitch sing down0004" x="3712" y="1098" width="510" height="879" frameX="-3" frameY="0" frameWidth="514" frameHeight="879"/>
+	<SubTexture name="stitch sing down0005" x="3712" y="1098" width="510" height="879" frameX="-3" frameY="0" frameWidth="514" frameHeight="879"/>
+	<SubTexture name="stitch sing down0006" x="3712" y="1098" width="510" height="879" frameX="-3" frameY="0" frameWidth="514" frameHeight="879"/>
+	<SubTexture name="stitch sing down0007" x="3712" y="1098" width="510" height="879" frameX="-3" frameY="0" frameWidth="514" frameHeight="879"/>
+	<SubTexture name="stitch sing left0000" x="4322" y="1098" width="513" height="898" frameX="0" frameY="0" frameWidth="514" frameHeight="898"/>
+	<SubTexture name="stitch sing left0001" x="4322" y="1098" width="513" height="898" frameX="0" frameY="0" frameWidth="514" frameHeight="898"/>
+	<SubTexture name="stitch sing left0002" x="4935" y="1098" width="512" height="898" frameX="-2" frameY="0" frameWidth="514" frameHeight="898"/>
+	<SubTexture name="stitch sing left0003" x="4935" y="1098" width="512" height="898" frameX="-2" frameY="0" frameWidth="514" frameHeight="898"/>
+	<SubTexture name="stitch sing left0004" x="4935" y="1098" width="512" height="898" frameX="-2" frameY="0" frameWidth="514" frameHeight="898"/>
+	<SubTexture name="stitch sing left0005" x="4935" y="1098" width="512" height="898" frameX="-2" frameY="0" frameWidth="514" frameHeight="898"/>
+	<SubTexture name="stitch sing left0006" x="4935" y="1098" width="512" height="898" frameX="-2" frameY="0" frameWidth="514" frameHeight="898"/>
+	<SubTexture name="stitch sing left0007" x="4935" y="1098" width="512" height="898" frameX="-2" frameY="0" frameWidth="514" frameHeight="898"/>
+	<SubTexture name="stitch sing left0008" x="4935" y="1098" width="512" height="898" frameX="-2" frameY="0" frameWidth="514" frameHeight="898"/>
+	<SubTexture name="stitch sing left0009" x="4935" y="1098" width="512" height="898" frameX="-2" frameY="0" frameWidth="514" frameHeight="898"/>
+	<SubTexture name="stitch sing left0010" x="4935" y="1098" width="512" height="898" frameX="-2" frameY="0" frameWidth="514" frameHeight="898"/>
+	<SubTexture name="stitch sing right0000" x="5547" y="1098" width="523" height="895" frameX="-2" frameY="0" frameWidth="525" frameHeight="895"/>
+	<SubTexture name="stitch sing right0001" x="5547" y="1098" width="523" height="895" frameX="-2" frameY="0" frameWidth="525" frameHeight="895"/>
+	<SubTexture name="stitch sing right0002" x="6170" y="1098" width="522" height="893" frameX="0" frameY="-2" frameWidth="525" frameHeight="895"/>
+	<SubTexture name="stitch sing right0003" x="6170" y="1098" width="522" height="893" frameX="0" frameY="-2" frameWidth="525" frameHeight="895"/>
+	<SubTexture name="stitch sing right0004" x="6170" y="1098" width="522" height="893" frameX="0" frameY="-2" frameWidth="525" frameHeight="895"/>
+	<SubTexture name="stitch sing right0005" x="6170" y="1098" width="522" height="893" frameX="0" frameY="-2" frameWidth="525" frameHeight="895"/>
+	<SubTexture name="stitch sing right0006" x="6170" y="1098" width="522" height="893" frameX="0" frameY="-2" frameWidth="525" frameHeight="895"/>
+	<SubTexture name="stitch sing right0007" x="6170" y="1098" width="522" height="893" frameX="0" frameY="-2" frameWidth="525" frameHeight="895"/>
+	<SubTexture name="stitch sing right0008" x="6170" y="1098" width="522" height="893" frameX="0" frameY="-2" frameWidth="525" frameHeight="895"/>
+	<SubTexture name="stitch sing right0009" x="6170" y="1098" width="522" height="893" frameX="0" frameY="-2" frameWidth="525" frameHeight="895"/>
+	<SubTexture name="stitch sing right0010" x="6170" y="1098" width="522" height="893" frameX="0" frameY="-2" frameWidth="525" frameHeight="895"/>
+	<SubTexture name="stitch sing right0011" x="6170" y="1098" width="522" height="893" frameX="0" frameY="-2" frameWidth="525" frameHeight="895"/>
+	<SubTexture name="stitch sing right0012" x="6170" y="1098" width="522" height="893" frameX="0" frameY="-2" frameWidth="525" frameHeight="895"/>
+	<SubTexture name="stitch sing up0000" x="6792" y="1098" width="508" height="910" frameX="-3" frameY="0" frameWidth="512" frameHeight="910"/>
+	<SubTexture name="stitch sing up0001" x="6792" y="1098" width="508" height="910" frameX="-3" frameY="0" frameWidth="512" frameHeight="910"/>
+	<SubTexture name="stitch sing up0002" x="7400" y="1098" width="512" height="907" frameX="0" frameY="-3" frameWidth="512" frameHeight="910"/>
+	<SubTexture name="stitch sing up0003" x="7400" y="1098" width="512" height="907" frameX="0" frameY="-3" frameWidth="512" frameHeight="910"/>
+	<SubTexture name="stitch sing up0004" x="7400" y="1098" width="512" height="907" frameX="0" frameY="-3" frameWidth="512" frameHeight="910"/>
+	<SubTexture name="stitch sing up0005" x="7400" y="1098" width="512" height="907" frameX="0" frameY="-3" frameWidth="512" frameHeight="910"/>
+	<SubTexture name="stitch sing up0006" x="7400" y="1098" width="512" height="907" frameX="0" frameY="-3" frameWidth="512" frameHeight="910"/>
+	<SubTexture name="stitch sing up0007" x="7400" y="1098" width="512" height="907" frameX="0" frameY="-3" frameWidth="512" frameHeight="910"/>
+	<SubTexture name="stitch sing up0008" x="7400" y="1098" width="512" height="907" frameX="0" frameY="-3" frameWidth="512" frameHeight="910"/>
+	<SubTexture name="stitch sing up0009" x="7400" y="1098" width="512" height="907" frameX="0" frameY="-3" frameWidth="512" frameHeight="910"/>
+	<SubTexture name="stitch sing up0010" x="7400" y="1098" width="512" height="907" frameX="0" frameY="-3" frameWidth="512" frameHeight="910"/>
+	<SubTexture name="stitch sing up0011" x="7400" y="1098" width="512" height="907" frameX="0" frameY="-3" frameWidth="512" frameHeight="910"/>
+	<SubTexture name="stitch sing up0012" x="7400" y="1098" width="512" height="907" frameX="0" frameY="-3" frameWidth="512" frameHeight="910"/>
+	<SubTexture name="stitch sing up0013" x="7400" y="1098" width="512" height="907" frameX="0" frameY="-3" frameWidth="512" frameHeight="910"/>
+	<SubTexture name="stitch sing up0014" x="7400" y="1098" width="512" height="907" frameX="0" frameY="-3" frameWidth="512" frameHeight="910"/>
+	<SubTexture name="stitch sing up0015" x="7400" y="1098" width="512" height="907" frameX="0" frameY="-3" frameWidth="512" frameHeight="910"/>
+	<SubTexture name="stitch sing up0016" x="7400" y="1098" width="512" height="907" frameX="0" frameY="-3" frameWidth="512" frameHeight="910"/>
+	<SubTexture name="stitch sing up0017" x="7400" y="1098" width="512" height="907" frameX="0" frameY="-3" frameWidth="512" frameHeight="910"/>
+	<SubTexture name="stitch sing up0018" x="7400" y="1098" width="512" height="907" frameX="0" frameY="-3" frameWidth="512" frameHeight="910"/>
+	<SubTexture name="stitch sing up0019" x="7400" y="1098" width="512" height="907" frameX="0" frameY="-3" frameWidth="512" frameHeight="910"/>
+	<SubTexture name="stitch sing up0020" x="7400" y="1098" width="512" height="907" frameX="0" frameY="-3" frameWidth="512" frameHeight="910"/>
+	<SubTexture name="stitch sing up0021" x="7400" y="1098" width="512" height="907" frameX="0" frameY="-3" frameWidth="512" frameHeight="910"/>
+	<SubTexture name="stitch sing up0022" x="7400" y="1098" width="512" height="907" frameX="0" frameY="-3" frameWidth="512" frameHeight="910"/>
+	<SubTexture name="stitch sing up0023" x="7400" y="1098" width="512" height="907" frameX="0" frameY="-3" frameWidth="512" frameHeight="910"/>
+	<SubTexture name="stitch start0000" x="100" y="2108" width="510" height="890" frameX="-2" frameY="-16" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0001" x="100" y="2108" width="510" height="890" frameX="-2" frameY="-16" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0002" x="100" y="2108" width="510" height="890" frameX="-2" frameY="-16" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0003" x="100" y="2108" width="510" height="890" frameX="-2" frameY="-16" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0004" x="100" y="2108" width="510" height="890" frameX="-2" frameY="-16" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0005" x="100" y="2108" width="510" height="890" frameX="-2" frameY="-16" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0006" x="100" y="2108" width="510" height="890" frameX="-2" frameY="-16" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0007" x="100" y="2108" width="510" height="890" frameX="-2" frameY="-16" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0008" x="100" y="2108" width="510" height="890" frameX="-2" frameY="-16" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0009" x="100" y="2108" width="510" height="890" frameX="-2" frameY="-16" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0010" x="100" y="2108" width="510" height="890" frameX="-2" frameY="-16" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0011" x="100" y="2108" width="510" height="890" frameX="-2" frameY="-16" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0012" x="100" y="2108" width="510" height="890" frameX="-2" frameY="-16" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0013" x="100" y="2108" width="510" height="890" frameX="-2" frameY="-16" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0014" x="100" y="2108" width="510" height="890" frameX="-2" frameY="-16" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0015" x="100" y="2108" width="510" height="890" frameX="-2" frameY="-16" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0016" x="100" y="2108" width="510" height="890" frameX="-2" frameY="-16" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0017" x="100" y="2108" width="510" height="890" frameX="-2" frameY="-16" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0018" x="100" y="2108" width="510" height="890" frameX="-2" frameY="-16" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0019" x="100" y="2108" width="510" height="890" frameX="-2" frameY="-16" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0020" x="100" y="2108" width="510" height="890" frameX="-2" frameY="-16" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0021" x="100" y="2108" width="510" height="890" frameX="-2" frameY="-16" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0022" x="100" y="2108" width="510" height="890" frameX="-2" frameY="-16" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0023" x="100" y="2108" width="510" height="890" frameX="-2" frameY="-16" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0024" x="100" y="2108" width="510" height="890" frameX="-2" frameY="-16" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0025" x="100" y="2108" width="510" height="890" frameX="-2" frameY="-16" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0026" x="100" y="2108" width="510" height="890" frameX="-2" frameY="-16" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0027" x="100" y="2108" width="510" height="890" frameX="-2" frameY="-16" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0028" x="100" y="2108" width="510" height="890" frameX="-2" frameY="-16" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0029" x="100" y="2108" width="510" height="890" frameX="-2" frameY="-16" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0030" x="710" y="2108" width="511" height="887" frameX="-5" frameY="-19" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0031" x="710" y="2108" width="511" height="887" frameX="-5" frameY="-19" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0032" x="1321" y="2108" width="512" height="897" frameX="0" frameY="-9" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0033" x="1321" y="2108" width="512" height="897" frameX="0" frameY="-9" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0034" x="1933" y="2108" width="507" height="899" frameX="-1" frameY="-7" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0035" x="1933" y="2108" width="507" height="899" frameX="-1" frameY="-7" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0036" x="1933" y="2108" width="507" height="899" frameX="-1" frameY="-7" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0037" x="1933" y="2108" width="507" height="899" frameX="-1" frameY="-7" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0038" x="1933" y="2108" width="507" height="899" frameX="-1" frameY="-7" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0039" x="1933" y="2108" width="507" height="899" frameX="-1" frameY="-7" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0040" x="1933" y="2108" width="507" height="899" frameX="-1" frameY="-7" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0041" x="1933" y="2108" width="507" height="899" frameX="-1" frameY="-7" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0042" x="1933" y="2108" width="507" height="899" frameX="-1" frameY="-7" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0043" x="1933" y="2108" width="507" height="899" frameX="-1" frameY="-7" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0044" x="1933" y="2108" width="507" height="899" frameX="-1" frameY="-7" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0045" x="1933" y="2108" width="507" height="899" frameX="-1" frameY="-7" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0046" x="1933" y="2108" width="507" height="899" frameX="-1" frameY="-7" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0047" x="1933" y="2108" width="507" height="899" frameX="-1" frameY="-7" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0048" x="1933" y="2108" width="507" height="899" frameX="-1" frameY="-7" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0049" x="1933" y="2108" width="507" height="899" frameX="-1" frameY="-7" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0050" x="1933" y="2108" width="507" height="899" frameX="-1" frameY="-7" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0051" x="1933" y="2108" width="507" height="899" frameX="-1" frameY="-7" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0052" x="2540" y="2108" width="507" height="899" frameX="-1" frameY="-7" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0053" x="2540" y="2108" width="507" height="899" frameX="-1" frameY="-7" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0054" x="3147" y="2108" width="509" height="899" frameX="-1" frameY="-7" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0055" x="3147" y="2108" width="509" height="899" frameX="-1" frameY="-7" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0056" x="3756" y="2108" width="507" height="899" frameX="-1" frameY="-7" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0057" x="3756" y="2108" width="507" height="899" frameX="-1" frameY="-7" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0058" x="4363" y="2108" width="507" height="899" frameX="-1" frameY="-7" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0059" x="4363" y="2108" width="507" height="899" frameX="-1" frameY="-7" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0060" x="4970" y="2108" width="507" height="899" frameX="-1" frameY="-7" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0061" x="4970" y="2108" width="507" height="899" frameX="-1" frameY="-7" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0062" x="5577" y="2108" width="507" height="899" frameX="-1" frameY="-7" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0063" x="5577" y="2108" width="507" height="899" frameX="-1" frameY="-7" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0064" x="6184" y="2108" width="507" height="899" frameX="-1" frameY="-7" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0065" x="6184" y="2108" width="507" height="899" frameX="-1" frameY="-7" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0066" x="4363" y="2108" width="507" height="899" frameX="-1" frameY="-7" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0067" x="4363" y="2108" width="507" height="899" frameX="-1" frameY="-7" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0068" x="4970" y="2108" width="507" height="899" frameX="-1" frameY="-7" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0069" x="4970" y="2108" width="507" height="899" frameX="-1" frameY="-7" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0070" x="5577" y="2108" width="507" height="899" frameX="-1" frameY="-7" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0071" x="5577" y="2108" width="507" height="899" frameX="-1" frameY="-7" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0072" x="6791" y="2108" width="510" height="896" frameX="-2" frameY="-10" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0073" x="6791" y="2108" width="510" height="896" frameX="-2" frameY="-10" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0074" x="7401" y="2108" width="612" height="903" frameX="-13" frameY="-3" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0075" x="7401" y="2108" width="612" height="903" frameX="-13" frameY="-3" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0076" x="100" y="3111" width="602" height="906" frameX="-15" frameY="0" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0077" x="100" y="3111" width="602" height="906" frameX="-15" frameY="0" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0078" x="100" y="3111" width="602" height="906" frameX="-15" frameY="0" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0079" x="100" y="3111" width="602" height="906" frameX="-15" frameY="0" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0080" x="100" y="3111" width="602" height="906" frameX="-15" frameY="0" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0081" x="100" y="3111" width="602" height="906" frameX="-15" frameY="0" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0082" x="100" y="3111" width="602" height="906" frameX="-15" frameY="0" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0083" x="100" y="3111" width="602" height="906" frameX="-15" frameY="0" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0084" x="100" y="3111" width="602" height="906" frameX="-15" frameY="0" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0085" x="100" y="3111" width="602" height="906" frameX="-15" frameY="0" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0086" x="100" y="3111" width="602" height="906" frameX="-15" frameY="0" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0087" x="100" y="3111" width="602" height="906" frameX="-15" frameY="0" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0088" x="100" y="3111" width="602" height="906" frameX="-15" frameY="0" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0089" x="100" y="3111" width="602" height="906" frameX="-15" frameY="0" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0090" x="100" y="3111" width="602" height="906" frameX="-15" frameY="0" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0091" x="100" y="3111" width="602" height="906" frameX="-15" frameY="0" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0092" x="802" y="3111" width="593" height="903" frameX="-9" frameY="-3" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0093" x="802" y="3111" width="593" height="903" frameX="-9" frameY="-3" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0094" x="1495" y="3111" width="601" height="898" frameX="-8" frameY="-8" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0095" x="1495" y="3111" width="601" height="898" frameX="-8" frameY="-8" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0096" x="2196" y="3111" width="597" height="898" frameX="-9" frameY="-8" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0097" x="2196" y="3111" width="597" height="898" frameX="-9" frameY="-8" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0098" x="2893" y="3111" width="597" height="898" frameX="-9" frameY="-8" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0099" x="2893" y="3111" width="597" height="898" frameX="-9" frameY="-8" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0100" x="2893" y="3111" width="597" height="898" frameX="-9" frameY="-8" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0101" x="2893" y="3111" width="597" height="898" frameX="-9" frameY="-8" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0102" x="2893" y="3111" width="597" height="898" frameX="-9" frameY="-8" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0103" x="2893" y="3111" width="597" height="898" frameX="-9" frameY="-8" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0104" x="2893" y="3111" width="597" height="898" frameX="-9" frameY="-8" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch start0105" x="2893" y="3111" width="597" height="898" frameX="-9" frameY="-8" frameWidth="625" frameHeight="906"/>
+	<SubTexture name="stitch up0000" x="3590" y="3111" width="619" height="914" frameX="-8" frameY="0" frameWidth="631" frameHeight="914"/>
+	<SubTexture name="stitch up0001" x="3590" y="3111" width="619" height="914" frameX="-8" frameY="0" frameWidth="631" frameHeight="914"/>
+	<SubTexture name="stitch up0002" x="4309" y="3111" width="631" height="908" frameX="0" frameY="-6" frameWidth="631" frameHeight="914"/>
+	<SubTexture name="stitch up0003" x="4309" y="3111" width="631" height="908" frameX="0" frameY="-6" frameWidth="631" frameHeight="914"/>
+	<SubTexture name="stitch up0004" x="4309" y="3111" width="631" height="908" frameX="0" frameY="-6" frameWidth="631" frameHeight="914"/>
+	<SubTexture name="stitch up0005" x="4309" y="3111" width="631" height="908" frameX="0" frameY="-6" frameWidth="631" frameHeight="914"/>
+	<SubTexture name="stitch up0006" x="4309" y="3111" width="631" height="908" frameX="0" frameY="-6" frameWidth="631" frameHeight="914"/>
+	<SubTexture name="stitch up0007" x="4309" y="3111" width="631" height="908" frameX="0" frameY="-6" frameWidth="631" frameHeight="914"/>
+	<SubTexture name="stitch up0008" x="4309" y="3111" width="631" height="908" frameX="0" frameY="-6" frameWidth="631" frameHeight="914"/>
+	<SubTexture name="stitch up0009" x="4309" y="3111" width="631" height="908" frameX="0" frameY="-6" frameWidth="631" frameHeight="914"/>
+	<SubTexture name="stitch up0010" x="4309" y="3111" width="631" height="908" frameX="0" frameY="-6" frameWidth="631" frameHeight="914"/>
+	<SubTexture name="stitch up0011" x="4309" y="3111" width="631" height="908" frameX="0" frameY="-6" frameWidth="631" frameHeight="914"/>
+	<SubTexture name="stitch up0012" x="4309" y="3111" width="631" height="908" frameX="0" frameY="-6" frameWidth="631" frameHeight="914"/>
+	<SubTexture name="stitch up0013" x="4309" y="3111" width="631" height="908" frameX="0" frameY="-6" frameWidth="631" frameHeight="914"/>
+	<SubTexture name="stitch up0014" x="4309" y="3111" width="631" height="908" frameX="0" frameY="-6" frameWidth="631" frameHeight="914"/>
+	<SubTexture name="stitch up0015" x="4309" y="3111" width="631" height="908" frameX="0" frameY="-6" frameWidth="631" frameHeight="914"/>
+</TextureAtlas>

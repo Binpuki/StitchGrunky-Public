@@ -1,0 +1,9 @@
+{
+	"directory": "meltingIslands",
+	"defaultZoom": 0.6,
+	"isPixelStage": false,
+
+	"boyfriend": [850, 80],
+	"girlfriend": [350, 50],
+	"opponent": [50, 50]
+}

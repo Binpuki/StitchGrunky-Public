@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="splitHell.png">
+	<!-- Created with Adobe Animate version 20.5.1.31044 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="splitHell0000" x="100" y="100" width="353" height="378"/>
+	<SubTexture name="splitHell0001" x="100" y="100" width="353" height="378"/>
+	<SubTexture name="splitHell0002" x="100" y="100" width="353" height="378"/>
+	<SubTexture name="splitHell0003" x="100" y="100" width="353" height="378"/>
+	<SubTexture name="splitHell0004" x="100" y="100" width="353" height="378"/>
+	<SubTexture name="splitHell0005" x="100" y="100" width="353" height="378"/>
+	<SubTexture name="splitHell0006" x="553" y="100" width="353" height="378"/>
+	<SubTexture name="splitHell0007" x="553" y="100" width="353" height="378"/>
+	<SubTexture name="splitHell0008" x="553" y="100" width="353" height="378"/>
+	<SubTexture name="splitHell0009" x="553" y="100" width="353" height="378"/>
+	<SubTexture name="splitHell0010" x="553" y="100" width="353" height="378"/>
+	<SubTexture name="splitHell0011" x="553" y="100" width="353" height="378"/>
+	<SubTexture name="splitHell0012" x="1006" y="100" width="353" height="378"/>
+	<SubTexture name="splitHell0013" x="1006" y="100" width="353" height="378"/>
+	<SubTexture name="splitHell0014" x="1006" y="100" width="353" height="378"/>
+	<SubTexture name="splitHell0015" x="1006" y="100" width="353" height="378"/>
+	<SubTexture name="splitHell0016" x="1006" y="100" width="353" height="378"/>
+	<SubTexture name="splitHell0017" x="1006" y="100" width="353" height="378"/>
+	<SubTexture name="splitHell0018" x="1459" y="100" width="353" height="378"/>
+	<SubTexture name="splitHell0019" x="1459" y="100" width="353" height="378"/>
+	<SubTexture name="splitHell0020" x="1459" y="100" width="353" height="378"/>
+	<SubTexture name="splitHell0021" x="1459" y="100" width="353" height="378"/>
+	<SubTexture name="splitHell0022" x="1459" y="100" width="353" height="378"/>
+	<SubTexture name="splitHell0023" x="1459" y="100" width="353" height="378"/>
+	<SubTexture name="splitHell0024" x="100" y="578" width="353" height="378"/>
+	<SubTexture name="splitHell0025" x="100" y="578" width="353" height="378"/>
+	<SubTexture name="splitHell0026" x="100" y="578" width="353" height="378"/>
+	<SubTexture name="splitHell0027" x="100" y="578" width="353" height="378"/>
+	<SubTexture name="splitHell0028" x="100" y="578" width="353" height="378"/>
+	<SubTexture name="splitHell0029" x="100" y="578" width="353" height="378"/>
+</TextureAtlas>

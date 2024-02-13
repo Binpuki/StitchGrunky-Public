@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="cascadeFalls.png">
+	<!-- Created with Adobe Animate version 20.5.1.31044 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="cascadeFalls0000" x="100" y="100" width="379" height="1181"/>
+	<SubTexture name="cascadeFalls0001" x="100" y="100" width="379" height="1181"/>
+	<SubTexture name="cascadeFalls0002" x="100" y="100" width="379" height="1181"/>
+	<SubTexture name="cascadeFalls0003" x="579" y="100" width="379" height="1181"/>
+	<SubTexture name="cascadeFalls0004" x="579" y="100" width="379" height="1181"/>
+	<SubTexture name="cascadeFalls0005" x="579" y="100" width="379" height="1181"/>
+	<SubTexture name="cascadeFalls0006" x="1058" y="100" width="379" height="1181"/>
+	<SubTexture name="cascadeFalls0007" x="1058" y="100" width="379" height="1181"/>
+	<SubTexture name="cascadeFalls0008" x="1058" y="100" width="379" height="1181"/>
+	<SubTexture name="cascadeFalls0009" x="1537" y="100" width="379" height="1181"/>
+	<SubTexture name="cascadeFalls0010" x="1537" y="100" width="379" height="1181"/>
+	<SubTexture name="cascadeFalls0011" x="1537" y="100" width="379" height="1181"/>
+	<SubTexture name="cascadeFalls0012" x="2016" y="100" width="379" height="1181"/>
+	<SubTexture name="cascadeFalls0013" x="2016" y="100" width="379" height="1181"/>
+	<SubTexture name="cascadeFalls0014" x="2016" y="100" width="379" height="1181"/>
+	<SubTexture name="cascadeFalls0015" x="2495" y="100" width="379" height="1181"/>
+	<SubTexture name="cascadeFalls0016" x="2495" y="100" width="379" height="1181"/>
+	<SubTexture name="cascadeFalls0017" x="2495" y="100" width="379" height="1181"/>
+	<SubTexture name="cascadeFalls0018" x="2974" y="100" width="379" height="1181"/>
+	<SubTexture name="cascadeFalls0019" x="2974" y="100" width="379" height="1181"/>
+	<SubTexture name="cascadeFalls0020" x="2974" y="100" width="379" height="1181"/>
+	<SubTexture name="cascadeFalls0021" x="3453" y="100" width="379" height="1181"/>
+	<SubTexture name="cascadeFalls0022" x="3453" y="100" width="379" height="1181"/>
+	<SubTexture name="cascadeFalls0023" x="3453" y="100" width="379" height="1181"/>
+	<SubTexture name="cascadeFalls0024" x="100" y="1381" width="379" height="1181"/>
+	<SubTexture name="cascadeFalls0025" x="100" y="1381" width="379" height="1181"/>
+	<SubTexture name="cascadeFalls0026" x="100" y="1381" width="379" height="1181"/>
+	<SubTexture name="cascadeFalls0027" x="579" y="1381" width="379" height="1181"/>
+	<SubTexture name="cascadeFalls0028" x="579" y="1381" width="379" height="1181"/>
+	<SubTexture name="cascadeFalls0029" x="579" y="1381" width="379" height="1181"/>
+</TextureAtlas>

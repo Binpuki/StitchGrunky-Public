@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="aquarIsland.png">
+	<!-- Created with Adobe Animate version 20.5.1.31044 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="aquarIsle0000" x="100" y="100" width="369" height="379"/>
+	<SubTexture name="aquarIsle0001" x="100" y="100" width="369" height="379"/>
+	<SubTexture name="aquarIsle0002" x="100" y="100" width="369" height="379"/>
+	<SubTexture name="aquarIsle0003" x="100" y="100" width="369" height="379"/>
+	<SubTexture name="aquarIsle0004" x="100" y="100" width="369" height="379"/>
+	<SubTexture name="aquarIsle0005" x="100" y="100" width="369" height="379"/>
+	<SubTexture name="aquarIsle0006" x="569" y="100" width="369" height="379"/>
+	<SubTexture name="aquarIsle0007" x="569" y="100" width="369" height="379"/>
+	<SubTexture name="aquarIsle0008" x="569" y="100" width="369" height="379"/>
+	<SubTexture name="aquarIsle0009" x="569" y="100" width="369" height="379"/>
+	<SubTexture name="aquarIsle0010" x="569" y="100" width="369" height="379"/>
+	<SubTexture name="aquarIsle0011" x="569" y="100" width="369" height="379"/>
+	<SubTexture name="aquarIsle0012" x="1038" y="100" width="369" height="379"/>
+	<SubTexture name="aquarIsle0013" x="1038" y="100" width="369" height="379"/>
+	<SubTexture name="aquarIsle0014" x="1038" y="100" width="369" height="379"/>
+	<SubTexture name="aquarIsle0015" x="1038" y="100" width="369" height="379"/>
+	<SubTexture name="aquarIsle0016" x="1038" y="100" width="369" height="379"/>
+	<SubTexture name="aquarIsle0017" x="1038" y="100" width="369" height="379"/>
+</TextureAtlas>

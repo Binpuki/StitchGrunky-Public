@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="meltingSun.png">
+	<!-- Created with Adobe Animate version 20.5.1.31044 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="meltingSun0000" x="100" y="100" width="557" height="647" frameX="0" frameY="-19" frameWidth="557" frameHeight="666"/>
+	<SubTexture name="meltingSun0001" x="100" y="100" width="557" height="647" frameX="0" frameY="-19" frameWidth="557" frameHeight="666"/>
+	<SubTexture name="meltingSun0002" x="100" y="100" width="557" height="647" frameX="0" frameY="-19" frameWidth="557" frameHeight="666"/>
+	<SubTexture name="meltingSun0003" x="757" y="100" width="537" height="639" frameX="-10" frameY="-19" frameWidth="557" frameHeight="666"/>
+	<SubTexture name="meltingSun0004" x="757" y="100" width="537" height="639" frameX="-10" frameY="-19" frameWidth="557" frameHeight="666"/>
+	<SubTexture name="meltingSun0005" x="757" y="100" width="537" height="639" frameX="-10" frameY="-19" frameWidth="557" frameHeight="666"/>
+	<SubTexture name="meltingSun0006" x="1394" y="100" width="549" height="650" frameX="-4" frameY="0" frameWidth="557" frameHeight="666"/>
+	<SubTexture name="meltingSun0007" x="1394" y="100" width="549" height="650" frameX="-4" frameY="0" frameWidth="557" frameHeight="666"/>
+	<SubTexture name="meltingSun0008" x="1394" y="100" width="549" height="650" frameX="-4" frameY="0" frameWidth="557" frameHeight="666"/>
+</TextureAtlas>

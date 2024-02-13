@@ -2,7 +2,7 @@
 <project>
 	<!-- _________________________ Application Settings _________________________ -->
 
-	<app title="SBURB: Funkin' Edition" file="SBURBFunkin" packageName="com.sburb.funkin" package="com.sburb.funkin" main="Main" version="0.2.8" company="SBURB Funkin' Team" />
+	<app title="Friday Night Funkin': Vs. Stitch V3" file="VSStitch" packageName="com.stitchteam.stitch" package="com.stitchteam.stitch" main="Main" version="0.2.8" company="Vs. Stitch Team" />
 
 	<!--Switch Export with Unique ApplicationID and Icon-->
 	<set name="APP_ID" value="0x0100f6c013bbc000" />
@@ -65,8 +65,8 @@
 	<assets path="assets/videos"        library="videos"        if="VIDEOS_ALLOWED"/>
 	<assets path="assets/songs"         library="songs"         exclude="*.ogg" if="web"/>
 	<assets path="assets/songs"         library="songs"         exclude="*.mp3" unless="web"/>
-	<assets path="assets/week_assets"   library="week_assets"   rename="assets" exclude="*.ogg" if="web"/>
-	<assets path="assets/week_assets"   library="week_assets"   rename="assets" exclude="*.mp3" unless="web"/>
+	<assets path="assets/stages"   library="stages"   rename="assets/stages" exclude="*.ogg" if="web"/>
+	<assets path="assets/stages"   library="stages"   rename="assets/stages" exclude="*.mp3" unless="web"/>
 	<section if="TITLE_SCREEN_EASTER_EGG">
 		<assets path="assets/secrets" rename="assets/shared" exclude="*.ogg" if="web"/>
 		<assets path="assets/secrets" rename="assets/shared" exclude="*.mp3"  unless="web"/>
@@ -74,7 +74,7 @@
 
 	<library name="videos"        preload="true" if="VIDEOS_ALLOWED"/>
 	<library name="songs"         preload="true" />
-	<library name="week_assets"   preload="true" />
+	<library name="stages"   preload="true" />
 
 	<define name="CHECK_FOR_UPDATES" if="desktop officialBuild"/>
 
