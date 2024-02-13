@@ -1,6 +1,10 @@
 -- Help from Pinacolada
 -- This probably wont work on any other ersion besides 0.6.3!!!
 function onCreatePost()
+    if not shadersEnabled then 
+        return 
+    end
+
     if shadersEnabled == true then
         initLuaShader("Bloom");
         makeLuaSprite("Bloom") makeGraphic("Bloom", screenWidth, screenHeight);
