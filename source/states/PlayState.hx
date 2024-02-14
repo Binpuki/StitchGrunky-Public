@@ -1629,7 +1629,7 @@ class PlayState extends MusicBeatState
 	private var windowFocused:Bool = true;
 	override public function onFocus():Void
 	{
-		if (health > 0 && !paused) 
+		if (health > 0 && !paused && ClientPrefs.data.autoPause) 
 		{
 			resetRPC(Conductor.songPosition > 0.0);
 			Conductor.songPosition = oldTime;
@@ -1645,7 +1645,7 @@ class PlayState extends MusicBeatState
 		if (health > 0 && !paused && autoUpdateRPC) DiscordClient.changePresence(detailsPausedText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter());
 		#end
 
-		if (health > 0 && !paused)
+		if (health > 0 && !paused && ClientPrefs.data.autoPause)
 			oldTime = Conductor.songPosition;
 
 		windowFocused = false;
