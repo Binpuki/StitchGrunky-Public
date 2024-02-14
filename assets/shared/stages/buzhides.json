@@ -1,0 +1,15 @@
+{
+	"directory": "buzhide",
+	"defaultZoom": 1.2,
+	"isPixelStage": false,
+
+	"boyfriend": [250, 0],
+	"girlfriend": [200, -200],
+	"opponent": [0, 0],
+	"hide_girlfriend": true,
+
+	"camera_boyfriend": [0, 0],
+	"camera_opponent": [0, 0],
+	"camera_girlfriend": [175, 200],
+	"camera_speed": 999
+}

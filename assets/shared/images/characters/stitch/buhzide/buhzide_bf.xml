@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="buhzide_bf.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="idle0000" x="482" y="0" width="226" height="319" frameX="-751" frameY="-338" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="right0000" x="945" y="0" width="174" height="382" frameX="-805" frameY="-275" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="up0000" x="261" y="0" width="221" height="341" frameX="-754" frameY="-311" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="down0000" x="708" y="0" width="237" height="293" frameX="-713" frameY="-360" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="left0000" x="0" y="0" width="261" height="322" frameX="-694" frameY="-335" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="hey0000" x="0" y="322" width="224" height="345" frameX="-750" frameY="-312" frameWidth="1280" frameHeight="720"/>
+</TextureAtlas>
