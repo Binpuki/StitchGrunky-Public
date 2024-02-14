@@ -200,7 +200,7 @@ class MainMenuState extends MusicBeatState
 			if (controls.UI_LEFT_P || controls.UI_RIGHT_P)
 				onLeft = !onLeft;
 
-			if ((controls.UI_DOWN_P || controls.UI_DOWN_P) && !onLeft)
+			if ((controls.UI_DOWN_P || controls.UI_UP_P) && !onLeft)
 				onFreeplay = !onFreeplay;
 
 			if (onLeft)
@@ -208,7 +208,7 @@ class MainMenuState extends MusicBeatState
 			else
 				curSelected = onFreeplay ? 1 : 2;
 
-			if (controls.UI_LEFT_P || controls.UI_RIGHT_P || controls.UI_DOWN_P || controls.UI_DOWN_P)
+			if (controls.UI_LEFT_P || controls.UI_RIGHT_P || controls.UI_DOWN_P || controls.UI_UP_P)
 				changeItem(0);
 			
 			if (controls.BACK)
