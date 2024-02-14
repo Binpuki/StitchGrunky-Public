@@ -1,47 +1,33 @@
-local PETALS = 0
-
+PETALS = 0
 function onCreate()
 	makeLuaSprite("sky", 'sky', -1200, -600)
-
 	makeLuaSprite("cloud", 'cloud', -1200, -600)
-
 	makeLuaSprite("secondcloud", 'secondcloud', -1200, -600)
-
 	makeLuaSprite("foregroundcloud", 'foregroundcloud', -1200, -600)
-
 	makeLuaSprite("foregroundthing", 'foregroundthing', -1200, -600)
-
 	makeLuaSprite("bigtreebranch", 'bigtreebranch', -1200, -600)
-
 	makeLuaSprite("leavesbackground", 'leavesbackground', -1200, -600)	
-
 	makeLuaSprite("branchwithleaves", 'branchwithleaves', -1200, -600)
-
 	makeLuaSprite("leavesandotherthing", 'leavesandotherthing', -1200, -600)
-
 	makeLuaSprite("branches", 'branches', -1200, -600)
-
 	makeLuaSprite("cabin", 'cabin', -1200, -600)
 
 	makeLuaSprite('UpperBar', '', 0, -130) --Default value of the y is -130
 	makeGraphic('UpperBar', 1500, 550, '000000')
-	setObjectCamera('UpperBar', 'hud')
+	setObjectCamera('UpperBar', 'hud')	
+	addLuaSprite('UpperBar', true);	
+	setProperty('UpperBar.color', "0x000000")
+	setProperty("UpperBar.y", 625);
 	setScrollFactor('UpperBar', 1.0, 1.0);
 	
 	makeLuaSprite('LowerBar', '', 0, 650) -- Default value of the y is 650
 	makeGraphic('LowerBar', 1500, 550, '000000')
 	setObjectCamera('LowerBar', 'hud')
-	setScrollFactor('LowerBar', 1.0, 1.0);
-	addLuaSprite('LowerBar', true);
-	addLuaSprite('UpperBar', true);
-	setProperty("UpperBar.y", 625);
-	setProperty("LowerBar.y", -450);
-
-	
-	setProperty('UpperBar.color', "0x000000")
+	setScrollFactor('LowerBar', 1.0, 1.0);	
 	setProperty('LowerBar.color', "0x000000")
-
-
+	addLuaSprite('LowerBar', true);
+	setProperty("LowerBar.y", -450);
+	
 	makeAnimatedLuaSprite("rope", 'rope', -620, 600)
 	addAnimationByPrefix("rope", "rope", "rope", 12, true)
 
@@ -68,7 +54,6 @@ function onCreate()
 	setScrollFactor("secondcloud", 0.6, 0.60)
 	setScrollFactor("cloud", 0.5, 0.55)
 	setScrollFactor("sky", 0.4, 0.5)
-	
 end
 
 function onCountdownStarted()
@@ -82,14 +67,14 @@ function onCountdownStarted()
 	end
 end
 
+die = false
 function onUpdate(elapsed)
 
 	if lowQuality == false then
-		
 	
-	size = getRandomFloat(0.9, 1.05)
+	size = getRandomFloat(0.85,1.25)
 
-	if getRandomBool(0.95) then
+	if getRandomBool(0.95) and not die then
 	
 		makeAnimatedLuaSprite("roses"..PETALS, 'petals', getRandomFloat(-1200, 1600), -750)
 		addAnimationByPrefix("roses"..PETALS, "rose petals", "rose petals", 12, true)
@@ -105,4 +90,8 @@ function onUpdate(elapsed)
 		PETALS = PETALS + 1
 	end
 end
+end
+
+function onGameOver()
+	die = true
 end
