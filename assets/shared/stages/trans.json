@@ -2,6 +2,7 @@
 	"directory": "trans",
 	"defaultZoom": 1.2,
 	"isPixelStage": false,
+	"hide_girlfriend": true,
 
 	"boyfriend": [200, -50],
 	"girlfriend": [50, 60],
