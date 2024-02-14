@@ -2,10 +2,10 @@ function onCreate()
     makeLuaSprite("floor", "floor", -1000, 200)--im gonna kill myself, someone please check the code please please please please
     addLuaSprite("floor", false)
 	scaleObject("floor", 1.25, 0.5, true)
-setScrollFactor('floor', 1.4, 1);
-setScrollFactor('dad', 1.1, 1.1);
-setScrollFactor('boyfriend', 1.1, 1.1);
-setScrollFactor('gf', 0.95, 1.1);
+	setScrollFactor('floor', 1.4, 1);
+	setScrollFactor('dad', 1.1, 1.1);
+	setScrollFactor('boyfriend', 1.1, 1.1);
+	setScrollFactor('gf', 0.95, 1.1);
 	setPerspective("floor", 0.4)
 	setProperty("floor.angle", 180)
 	--setProperty("defaultCamZoom", 0.15)
