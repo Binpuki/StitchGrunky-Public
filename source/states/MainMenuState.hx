@@ -184,7 +184,7 @@ class MainMenuState extends MusicBeatState
 	var selectedSomethin:Bool = false;
 
 	// IK THIS IS BADLY CODED BUT I HAVE LIKE 2 HOURS HELP
-	var onLeft:Bool = false;
+	var onLeft:Bool = true;
 	var onFreeplay:Bool = true;
 	override function update(elapsed:Float)
 	{
