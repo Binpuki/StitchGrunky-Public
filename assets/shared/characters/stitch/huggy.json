@@ -65,12 +65,12 @@
 		-450,
 		-800
 	],
-	"healthicon": "face",
+	"healthicon": "huggy",
 	"flip_x": false,
 	"healthbar_colors": [
-		161,
-		161,
-		161
+		0,
+		126,
+		251
 	],
 	"camera_position": [
 		0,
