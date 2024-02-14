@@ -88,7 +88,12 @@ class FreeplayState extends MusicBeatState
 		}
 		Mods.loadTopMod();
 
-		bg = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
+		bg = new FlxSprite();
+		bg.frames = Paths.getSparrowAtlas("MENUS/FREEPLAY/BGfreeplay");
+		bg.animation.addByPrefix("BG", "BG", 24, true);
+		bg.animation.play("BG", true);
+		bg.setGraphicSize(1280, 720);
+		bg.updateHitbox();
 		bg.antialiasing = ClientPrefs.data.antialiasing;
 		add(bg);
 		bg.screenCenter();

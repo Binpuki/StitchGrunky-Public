@@ -553,9 +553,9 @@ class TitleState extends MusicBeatState
 				case 5:
 					deleteCoolText();
 				case 6:
-					createCoolText(['Vs Stitch', 'Directed By'], -40);
+					createCoolText(['Vs Stitch By'], -40);
 				case 8:
-					addMoreText('Josee / Random', -40);
+					addMoreText('Stitch Studios', -40);
 				case 9:
 					deleteCoolText();
 				case 10:
