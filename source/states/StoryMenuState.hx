@@ -41,6 +41,11 @@ class StoryMenuState extends MusicBeatState
 
 	var loadedWeeks:Array<WeekData> = [];
 
+	var keyz = 'MENUS/SELECT/';
+	var spin:FlxSprite;
+    var arrow:FlxSprite;
+    var stitch:FlxSprite;
+    var sparkle:FlxSprite;
 	override function create()
 	{
 		Paths.clearStoredMemory();
@@ -50,6 +55,51 @@ class StoryMenuState extends MusicBeatState
 		WeekData.reloadWeekFiles(true);
 		if(curWeek >= WeekData.weeksList.length) curWeek = 0;
 		persistentUpdate = persistentDraw = true;
+
+
+		var s = 0.70;
+		var bg = new FlxSprite(-300, -300).loadGraphic(Paths.image(keyz + 'BGselection'));
+		bg.frames = Paths.getSparrowAtlas(keyz + 'BGselection');
+		bg.animation.addByPrefix('a', 'BG', 24);
+		bg.animation.play('a');
+		bg.scale.x = s;
+		bg.scale.y = s;
+		add(bg);
+		var spin = new FlxSprite(100, 100).loadGraphic(Paths.image(keyz + 'Stitch_spin'));
+        spin.frames = Paths.getSparrowAtlas(keyz + 'Stitch_spin');
+		spin.animation.addByPrefix('a', 'Stitch spin', 24);
+		spin.animation.play('a');
+		spin.scale.x = 1;
+		spin.scale.y = 1;
+		add(spin);
+		var blackBar = new FlxSprite(-500, -360).loadGraphic(Paths.image(keyz + 'BLACKBARSselection'));
+		blackBar.frames = Paths.getSparrowAtlas(keyz + 'BLACKBARSselection');
+		blackBar.animation.addByPrefix('a', 'selectscreenBLKBARS', 24);
+		blackBar.animation.play('a');
+		blackBar.scale.x = s;
+		blackBar.scale.y = s;
+		add(blackBar);
+        var arrow = new FlxSprite(680, 290).loadGraphic(Paths.image(keyz + 'pointer'));
+		arrow.frames = Paths.getSparrowAtlas(keyz + 'pointer');
+		arrow.animation.addByPrefix('a', 'arrow', 24);
+		arrow.animation.play('a');
+		arrow.scale.x = s;
+		arrow.scale.y = s;
+		add(arrow);
+        var stitch = new FlxSprite(0, 250).loadGraphic(Paths.image(keyz + 'STITCH'));
+		stitch.frames = Paths.getSparrowAtlas(keyz + 'STITCH');
+		stitch.animation.addByPrefix('stay', 'STITCH_fuck', 24);
+		stitch.animation.play('stay');
+		stitch.scale.x = s;
+		stitch.scale.y = s;
+		add(stitch);
+        var sparkle = new FlxSprite(-65, 210).loadGraphic(Paths.image(keyz + 'STITCHsprkles'));
+		sparkle.frames = Paths.getSparrowAtlas(keyz + 'STITCHsprkles');
+		sparkle.animation.addByPrefix('a', 'stitchsprkls', 24);
+		sparkle.animation.play('a');
+		sparkle.scale.x = s;
+		sparkle.scale.y = s;
+		add(sparkle);
 
 		scoreText = new FlxText(10, 10, 0, "SCORE: 49324858", 36);
 		scoreText.setFormat("VCR OSD Mono", 32);
@@ -69,15 +119,15 @@ class StoryMenuState extends MusicBeatState
 		bgSprite = new FlxSprite(0, 56);
 
 		grpWeekText = new FlxTypedGroup<MenuItem>();
-		add(grpWeekText);
+
 
 		var blackBarThingie:FlxSprite = new FlxSprite().makeGraphic(FlxG.width, 56, FlxColor.BLACK);
-		add(blackBarThingie);
+
 
 		grpWeekCharacters = new FlxTypedGroup<MenuCharacter>();
 
 		grpLocks = new FlxTypedGroup<FlxSprite>();
-		add(grpLocks);
+
 
 		#if desktop
 		// Updating Discord Rich Presence
@@ -126,7 +176,7 @@ class StoryMenuState extends MusicBeatState
 		}
 
 		difficultySelectors = new FlxGroup();
-		add(difficultySelectors);
+		// add(difficultySelectors);
 
 		leftArrow = new FlxSprite(grpWeekText.members[0].x + grpWeekText.members[0].width + 10, grpWeekText.members[0].y + 10);
 		leftArrow.antialiasing = ClientPrefs.data.antialiasing;
@@ -155,22 +205,22 @@ class StoryMenuState extends MusicBeatState
 		rightArrow.animation.play('idle');
 		difficultySelectors.add(rightArrow);
 
-		add(bgYellow);
-		add(bgSprite);
-		add(grpWeekCharacters);
+		// add(bgYellow);
+		// add(bgSprite);
+		// add(grpWeekCharacters);
 
 		var tracksSprite:FlxSprite = new FlxSprite(FlxG.width * 0.07, bgSprite.y + 425).loadGraphic(Paths.image('Menu_Tracks'));
 		tracksSprite.antialiasing = ClientPrefs.data.antialiasing;
-		add(tracksSprite);
+		// add(tracksSprite);
 
 		txtTracklist = new FlxText(FlxG.width * 0.05, tracksSprite.y + 60, 0, "", 32);
 		txtTracklist.alignment = CENTER;
 		txtTracklist.font = rankText.font;
 		txtTracklist.color = 0xFFe55777;
-		add(txtTracklist);
-		// add(rankText);
-		add(scoreText);
-		add(txtWeekTitle);
+		// add(txtTracklist);
+		// // add(rankText);
+		// add(scoreText);
+		// add(txtWeekTitle);
 
 		changeWeek();
 		changeDifficulty();
@@ -198,17 +248,17 @@ class StoryMenuState extends MusicBeatState
 		{
 			var upP = controls.UI_UP_P;
 			var downP = controls.UI_DOWN_P;
-			if (upP)
-			{
-				changeWeek(-1);
-				FlxG.sound.play(Paths.sound('scrollMenu'));
-			}
+			// if (upP)
+			// {
+			// 	changeWeek(-1);
+			// 	FlxG.sound.play(Paths.sound('scrollMenu'));
+			// }
 
-			if (downP)
-			{
-				changeWeek(1);
-				FlxG.sound.play(Paths.sound('scrollMenu'));
-			}
+			// if (downP)
+			// {
+			// 	changeWeek(1);
+			// 	FlxG.sound.play(Paths.sound('scrollMenu'));
+			// }
 
 			if(FlxG.mouse.wheel != 0)
 			{
@@ -217,22 +267,22 @@ class StoryMenuState extends MusicBeatState
 				changeDifficulty();
 			}
 
-			if (controls.UI_RIGHT)
-				rightArrow.animation.play('press')
-			else
-				rightArrow.animation.play('idle');
+			// if (controls.UI_RIGHT)
+			// 	rightArrow.animation.play('press')
+			// else
+			// 	rightArrow.animation.play('idle');
 
-			if (controls.UI_LEFT)
-				leftArrow.animation.play('press');
-			else
-				leftArrow.animation.play('idle');
+			// if (controls.UI_LEFT)
+			// 	leftArrow.animation.play('press');
+			// else
+			// 	leftArrow.animation.play('idle');
 
-			if (controls.UI_RIGHT_P)
-				changeDifficulty(1);
-			else if (controls.UI_LEFT_P)
-				changeDifficulty(-1);
-			else if (upP || downP)
-				changeDifficulty();
+			// if (controls.UI_RIGHT_P)
+			// 	changeDifficulty(1);
+			// else if (controls.UI_LEFT_P)
+			// 	changeDifficulty(-1);
+			// else if (upP || downP)
+			// 	changeDifficulty();
 
 			if(FlxG.keys.justPressed.CONTROL)
 			{
