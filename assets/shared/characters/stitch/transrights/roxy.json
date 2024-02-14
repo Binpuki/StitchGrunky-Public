@@ -65,9 +65,7 @@
 	"healthicon": "roxy",
 	"flip_x": false,
 	"healthbar_colors": [
-		98,
-		202,
-		255
+		98,202,255
 	],
 	"camera_position": [
 		-100,

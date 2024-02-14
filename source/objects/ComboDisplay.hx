@@ -31,7 +31,7 @@ class ComboDisplay extends FlxSpriteGroup
         add(currentJudge);
 
         msTimeTxt = new FlxText(-100, ClientPrefs.data.downScroll ? 40 : -90, 200, "", 24);
-        msTimeTxt.setFormat(Paths.font("vcr.ttf"), 24, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+        msTimeTxt.setFormat(Paths.font("neon.ttf"), 24, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
         msTimeTxt.centerOrigin();
         add(msTimeTxt);
     }

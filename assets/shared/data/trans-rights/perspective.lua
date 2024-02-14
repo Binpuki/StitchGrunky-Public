@@ -1,11 +1,11 @@
 function onCreate()
-    makeLuaSprite("floor", "stages/trans/floor", -2500, -800)
+    makeLuaSprite("floor", "floor", -2500, -800)
     addLuaSprite("floor", false)
 	scaleObject("floor", 4, 2.5, true)
-setScrollFactor('floor', 1.4, 1);
-setScrollFactor('dad', 1.1, 1.1);
-setScrollFactor('boyfriend', 1.1, 1.1);
-setScrollFactor('gf', 0.95, 1.1);
+	setScrollFactor('floor', 1.4, 1);
+	setScrollFactor('dad', 1.1, 1.1);
+	setScrollFactor('boyfriend', 1.1, 1.1);
+	setScrollFactor('gf', 0.95, 1.1);
 	setPerspective("floor", 0.65)
 	--setProperty("defaultCamZoom", 0.15)
 end
@@ -42,10 +42,10 @@ function setPerspective(tag, depth)
 			depth = depth
 		}
 
-		initLuaShader("perspective")
-		setSpriteShader(tag, "perspective")
-		setShaderFloatArray(tag, "u_top", {0, 1})
-		setShaderFloat(tag, "u_depth", depth)
+		--initLuaShader("perspective")
+		--setSpriteShader(tag, "perspective")
+		--setShaderFloatArray(tag, "u_top", {0, 1})
+		--setShaderFloat(tag, "u_depth", depth)
 	end
 end
 

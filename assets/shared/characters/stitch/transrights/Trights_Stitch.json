@@ -171,9 +171,7 @@
 	"healthicon": "stitchrights",
 	"flip_x": true,
 	"healthbar_colors": [
-		42,
-		63,
-		245
+		42,63,245
 	],
 	"camera_position": [
 		-100,

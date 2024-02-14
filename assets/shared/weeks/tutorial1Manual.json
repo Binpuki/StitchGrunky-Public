@@ -14,18 +14,19 @@
 	"hideFreeplay": false,
 	"weekBackground": "meltingIslands",
 	"difficulties": "Normal",
-	"storyName": "How 2 have gay sex and marriage",
-	"weekName": "tutorial",
 	"weekCharacters": [
 		"stitch",
 		"bf",
 		""
 	],
+	"storyName": "Tutorial",
+	"weekName": "tutorial",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
 	"hideStoryMode": false,
+	"weekBefore": "tutorial",
 	"startUnlocked": true
 }

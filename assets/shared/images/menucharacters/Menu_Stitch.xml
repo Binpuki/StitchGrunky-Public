@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Menu_Stitch.png">
+	<!-- Created with Adobe Animate version 20.5.1.31044 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="stitch idle bop menu0000" x="100" y="100" width="578" height="888" frameX="-5" frameY="-10" frameWidth="602" frameHeight="898"/>
+	<SubTexture name="stitch idle bop menu0001" x="100" y="100" width="578" height="888" frameX="-5" frameY="-10" frameWidth="602" frameHeight="898"/>
+	<SubTexture name="stitch idle bop menu0002" x="778" y="100" width="588" height="886" frameX="0" frameY="-12" frameWidth="602" frameHeight="898"/>
+	<SubTexture name="stitch idle bop menu0003" x="778" y="100" width="588" height="886" frameX="0" frameY="-12" frameWidth="602" frameHeight="898"/>
+	<SubTexture name="stitch idle bop menu0004" x="1466" y="100" width="598" height="895" frameX="-3" frameY="-3" frameWidth="602" frameHeight="898"/>
+	<SubTexture name="stitch idle bop menu0005" x="1466" y="100" width="598" height="895" frameX="-3" frameY="-3" frameWidth="602" frameHeight="898"/>
+	<SubTexture name="stitch idle bop menu0006" x="2164" y="100" width="597" height="898" frameX="-5" frameY="0" frameWidth="602" frameHeight="898"/>
+	<SubTexture name="stitch idle bop menu0007" x="2164" y="100" width="597" height="898" frameX="-5" frameY="0" frameWidth="602" frameHeight="898"/>
+	<SubTexture name="stitch idle bop menu0008" x="2861" y="100" width="597" height="898" frameX="-5" frameY="0" frameWidth="602" frameHeight="898"/>
+	<SubTexture name="stitch idle bop menu0009" x="2861" y="100" width="597" height="898" frameX="-5" frameY="0" frameWidth="602" frameHeight="898"/>
+	<SubTexture name="stitch idle bop menu0010" x="2861" y="100" width="597" height="898" frameX="-5" frameY="0" frameWidth="602" frameHeight="898"/>
+	<SubTexture name="stitch idle bop menu0011" x="2861" y="100" width="597" height="898" frameX="-5" frameY="0" frameWidth="602" frameHeight="898"/>
+	<SubTexture name="stitch idle bop menu0012" x="2861" y="100" width="597" height="898" frameX="-5" frameY="0" frameWidth="602" frameHeight="898"/>
+	<SubTexture name="stitch idle bop menu0013" x="2861" y="100" width="597" height="898" frameX="-5" frameY="0" frameWidth="602" frameHeight="898"/>
+</TextureAtlas>

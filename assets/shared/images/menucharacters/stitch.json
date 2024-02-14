@@ -1,0 +1,11 @@
+{
+	"idle_anim": "stitch idle bop menu",
+	"image": "Menu_Stitch",
+	"position": [
+		210,
+		275
+	],
+	"flipX": false,
+	"scale": 0.4,
+	"confirm_anim": "M Dad Idle"
+}

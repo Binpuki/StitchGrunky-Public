@@ -3,7 +3,7 @@
 	"difficulties": "Normal",
 	"hideFreeplay": false,
 	"weekBackground": "stitch",
-	"weekBefore": "week1",
+	"weekBefore": "Vs Stitch",
 	"freeplayColor": [
 		146,
 		113,
@@ -27,5 +27,5 @@
 		"",
 		""
 	],
-	"weekName": "extras"
+	"weekName": "Extras"
 }

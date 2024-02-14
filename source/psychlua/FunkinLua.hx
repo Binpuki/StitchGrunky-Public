@@ -1766,6 +1766,9 @@ class FunkinLua {
 		for(mod in Mods.getGlobalMods())
 			foldersToCheck.insert(0, Paths.mods(mod + '/shaders/'));
 
+		foldersToCheck.insert(0, Paths.getSharedPath("shaders/"));
+
+		trace(foldersToCheck);
 		for (folder in foldersToCheck)
 		{
 			if(FileSystem.exists(folder))

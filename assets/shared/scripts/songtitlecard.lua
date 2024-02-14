@@ -29,6 +29,7 @@ function onSongStart()
         runTimer("byebye", 5, 1)
     else
         debugPrint("aw hell naw")
+        debugPrint('assets/shared/data/'..songPath..'/credits.txt')
     end
 end
 
