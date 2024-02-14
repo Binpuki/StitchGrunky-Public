@@ -1,8 +1,7 @@
 {
-	"directory": "trans",
-	"defaultZoom": 1.2,
+	"directory": "",
+	"defaultZoom": 0.8,
 	"isPixelStage": false,
-	"hide_girlfriend": true,
 
 	"boyfriend": [200, -50],
 	"girlfriend": [50, 60],

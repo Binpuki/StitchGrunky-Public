@@ -1,46 +1,28 @@
-clod = 0
 function onCreate()
-    makeLuaSprite("sky", 'sky', 0, 0)
+    makeLuaSprite("sky", 'stages/trans/white', -500, -100)
     addLuaSprite("sky", false)
-    setScrollFactor("sky", 0, 0)
-    
-    makeLuaSprite("buildings", 'buildings', -0, 100)
-    addLuaSprite("buildings", false)
-    setScrollFactor("buildings", 0.2, 1)
 
-    makeLuaSprite("Upperbar", '', 0, -100)
-    makeGraphic("Upperbar", 1500, 200, '000000')
-    setObjectCamera("Upperbar", 'hud')
-    addLuaSprite("Upperbar", true)
-    setScrollFactor("Upperbar", 0.0, 0.0)
+    makeLuaSprite("pinkg", 'stages/trans/pink', -500, -100)
+    addLuaSprite("pinkg", false)
 
-    makeLuaSprite("lowerbar", '', 0, 600)
-    makeGraphic("lowerbar", 1500, 200, '000000')
-    setObjectCamera("lowerbar", 'hud')
-    addLuaSprite("lowerbar", true)
-    setScrollFactor("lowerbar", 0.0, 0.0)
-end
+    makeLuaSprite("putple", 'stages/trans/purplegradient', -500, -100)
+    addLuaSprite("putple", false)
 
-function onUpdate(elapsed)
-    if getRandomBool(0.05) then
-    makeLuaSprite("cloud1"..clod, 'cloud1', 900, getRandomFloat(-100, -300))
-    addLuaSprite("cloud1"..clod, false)
-    doTweenX("cloud move1"..clod, "cloud1"..clod, getRandomFloat(-2000, -3000), 90, "linear")
-    elseif getRandomBool(0.05) then
-    makeLuaSprite("cloud2"..clod, 'cloud2', 900, getRandomFloat(-100, -300))
-    addLuaSprite("cloud2"..clod, false)
-    doTweenX("cloud move2"..clod, "cloud2"..clod, getRandomFloat(-2000, -3000), 90, "linear")
-    elseif getRandomBool(0.05) then
-    makeLuaSprite("cloud3"..clod, 'cloud3', 900, getRandomFloat(-100, -300))
-    addLuaSprite("cloud3"..clod, false)
-    doTweenX("cloud move3"..clod, "cloud3"..clod, getRandomFloat(-2000, -3000), 90, "linear")
-    elseif getRandomBool(0.05) then
-    makeLuaSprite("cloud4"..clod, 'cloud4', 900, getRandomFloat(-100, -300))
-    addLuaSprite("cloud4"..clod, false)
-    doTweenX("cloud move4"..clod, "cloud4"..clod, getRandomFloat(-2000, -3000), 90, "linear")
-    end
-    clod = clod + 1
-    end
-    if clod >= 10 then 
-    clod = 1 
+    makeLuaSprite("bg", 'stages/trans/mountainbg', -500, -100)
+    addLuaSprite("bg", false)
+
+    makeLuaSprite("mountain", 'stages/trans/bgmountain', -500, -100)
+    addLuaSprite("mountain", false)
+
+    makeLuaSprite("bgROCK", 'stages/trans/rock3', -500, -100)
+    addLuaSprite("bgROCK", false)
+
+    makeLuaSprite("bgROCK2", 'stages/trans/rock3straight', -500, -100)
+    addLuaSprite("bgROCK2", false)
+
+    makeLuaSprite("bgROCK3", 'stages/trans/rock2', -500, -100)
+    addLuaSprite("bgROCK3", false)
+
+    makeLuaSprite("bgROCK14", 'stages/trans/rock1', -500, -100)
+    addLuaSprite("bgROCK14", false)
 end
