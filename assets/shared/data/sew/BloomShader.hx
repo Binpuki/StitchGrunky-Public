@@ -29,7 +29,6 @@ import openfl.filters.ShaderFilter;
 
 function onCreatePost()
 {
-    /*
     if (ClientPrefs.data.shaders)
     {
         var shader:FlxRuntimeShader = new FlxRuntimeShader(Assets.getText(Paths.shaderFragment("Bloom")), null);
@@ -44,5 +43,4 @@ function onCreatePost()
 
         game.camGame.setFilters([new ShaderFilter(shader)]);
     }
-    */
 }
