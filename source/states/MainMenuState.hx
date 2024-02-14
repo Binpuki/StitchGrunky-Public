@@ -183,6 +183,9 @@ class MainMenuState extends MusicBeatState
 
 	var selectedSomethin:Bool = false;
 
+	// IK THIS IS BADLY CODED BUT I HAVE LIKE 2 HOURS HELP
+	var onLeft:Bool = false;
+	var onFreeplay:Bool = true;
 	override function update(elapsed:Float)
 	{
 		if (FlxG.sound.music.volume < 0.8)
@@ -194,11 +197,19 @@ class MainMenuState extends MusicBeatState
 
 		if (!selectedSomethin)
 		{
-			if (controls.UI_LEFT_P)
-				changeItem(-1);
+			if (controls.UI_LEFT_P || controls.UI_RIGHT_P)
+				onLeft = !onLeft;
 
-			if (controls.UI_RIGHT_P)
-				changeItem(1);
+			if ((controls.UI_DOWN_P || controls.UI_DOWN_P) && !onLeft)
+				onFreeplay = !onFreeplay;
+
+			if (onLeft)
+				curSelected = 0;
+			else
+				curSelected = onFreeplay ? 1 : 2;
+
+			if (controls.UI_LEFT_P || controls.UI_RIGHT_P || controls.UI_DOWN_P || controls.UI_DOWN_P)
+				changeItem(0);
 			
 			if (controls.BACK)
 			{
