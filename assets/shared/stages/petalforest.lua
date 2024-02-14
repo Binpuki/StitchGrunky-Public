@@ -87,7 +87,7 @@ function onUpdate(elapsed)
 	if lowQuality == false then
 		
 	
-	size = math.random(0.95,1.05)
+	size = getRandomFloat(0.9, 1.05)
 
 	if getRandomBool(0.95) then
 	
