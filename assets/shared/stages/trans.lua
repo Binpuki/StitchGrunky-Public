@@ -1,29 +1,29 @@
 function onCreate()
-    makeLuaSprite("sky", 'white', -500, -100)
+    makeLuaSprite("sky", 'white', -450, -100)
     addLuaSprite("sky", false)
 
-    makeLuaSprite("pinkg", 'pink', -500, -100)
+    makeLuaSprite("pinkg", 'pink', -450, -100)
     addLuaSprite("pinkg", false)
 
-    makeLuaSprite("putple", 'purplegradient', -500, -100)
+    makeLuaSprite("putple", 'purplegradient', -450, -100)
     addLuaSprite("putple", false)
 
-    makeLuaSprite("bg", 'mountainbg', -400, -100)
+    makeLuaSprite("bg", 'mountainbg', -400, 550)
     addLuaSprite("bg", false)
 
-    makeLuaSprite("mountain", 'bgmountain', -350, -100)
+    makeLuaSprite("mountain", 'bgmountain', -350, 550)
     addLuaSprite("mountain", false)
 
-    makeLuaSprite("bgROCK", 'rock3', -650, -300)
+    makeLuaSprite("bgROCK", 'rock3', -650, 550)
     addLuaSprite("bgROCK", false)
 
-    makeLuaSprite("bgROCK2", 'rock3straight', -650, -300)
+    makeLuaSprite("bgROCK2", 'rock3straight', -650, 550)
     addLuaSprite("bgROCK2", false)
 
-    makeLuaSprite("bgROCK3", 'rock2', -650, -300)
+    makeLuaSprite("bgROCK3", 'rock2', -650, 550)
     addLuaSprite("bgROCK3", false)
 
-    makeLuaSprite("bgROCK14", 'rock1', -650, -300)
+    makeLuaSprite("bgROCK14", 'rock1', -650, 550)
     addLuaSprite("bgROCK14", false)
 
     setScrollFactor("bgROCK", 0.7, 1.05)
@@ -61,5 +61,16 @@ function onUpdate(elapsed)
         setProperty("defaultCamZoom", 1.1)
     else
         setProperty("defaultCamZoom", 1.35)
+    end
+end
+
+function onBeatHit()
+    if curBeat == 80 then
+        doTweenY("up", "bg", -250, 1, "backOut")
+        doTweenY("up2", "mountain", -250, 2, "backOut")
+        doTweenY("up3", "bgROCK", -250, 2.5, "backOut")
+        doTweenY("up4", "bgROCK2", -250, 1.2, "backOut")
+        doTweenY("up5", "bgROCK3", -250, 1.4, "backOut")
+        doTweenY("up6", "bgROCK14", -250, 2, "backOut")
     end
 end
